@@ -5,9 +5,12 @@ on:
     branches: ["main"]
 
 env:
-  EC2_PATH: "/var/www/ballknower" # Replace with your app's path on EC2
+  EC2_FRONTEND_PATH: "/var/www/ballknower" # Next.js app path
+  EC2_CRON_PATH: "/home/ec2-user/cron" # Cron job path
+  EC2_DATA_PATH: "/home/ec2-user/data" # Database path
   EC2_HOST: "54.163.25.58"
   EC2_USER: "ec2-user"
+  BALLKNOWER_DB_PATH: "/home/ec2-user/data/ballknower.db" # Production DB path
 
 jobs:
   deploy:
@@ -22,11 +25,12 @@ jobs:
         with:
           node-version: 18
 
-      - name: Create .env file
+      - name: Create .env file for Next.js
         run: |
           echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" > .env
+          echo "BALLKNOWER_DB_PATH=${{ env.BALLKNOWER_DB_PATH }}" >> .env
 
-      - name: Install dependencies
+      - name: Install Next.js dependencies
         run: npm install
 
       - name: Build Next.js
@@ -35,34 +39,83 @@ jobs:
       - name: List files
         run: ls -la
 
-      - name: Compress build folder (optional step)
-        run: tar -czf build.tar.gz .next node_modules package.json package-lock.json next.config.js postcss.config.js tailwind.config.ts tsconfig.json .env
+      - name: Compress build folder for frontend
+        run: tar -czf frontend.tar.gz .next node_modules package.json package-lock.json next.config.js postcss.config.js tailwind.config.ts tsconfig.json .env
 
-      - name: Copy files to EC2 via rsync
+      - name: Copy frontend files to EC2 via rsync
         uses: burnett01/rsync-deployments@7.0.1
         with:
           switches: -avzr --delete --no-times
-          path: build.tar.gz
-          remote_path: ${{ env.EC2_PATH }}
+          path: frontend.tar.gz
+          remote_path: ${{ env.EC2_FRONTEND_PATH }}
           remote_host: ${{ env.EC2_HOST }}
           remote_user: ${{ env.EC2_USER }}
           remote_key: ${{ secrets.EC2_SSH_KEY }}
 
-      - name: SSH into EC2 and unpack
+      - name: Set up Python and uv
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9" # Match your Amazon Linux version (3.9 for AL2023)
+
+      - name: Install uv
+        run: |
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          echo "$HOME/.cargo/bin" >> $GITHUB_PATH
+
+      - name: Create virtual environment and install cron dependencies with uv
+        run: |
+          uv venv --python $(which python3)  # Create virtual environment
+          source .venv/bin/activate
+          uv pip install -r requirements.txt  # Install dependencies
+
+      - name: Compress cron files
+        run: tar -czf cron.tar.gz update_bets.py requirements.txt bet-cron.sh .venv
+
+      - name: Copy cron files to EC2 via rsync
+        uses: burnett01/rsync-deployments@7.0.1
+        with:
+          switches: -avzr --delete --no-times
+          path: cron.tar.gz
+          remote_path: ${{ env.EC2_CRON_PATH }}
+          remote_host: ${{ env.EC2_HOST }}
+          remote_user: ${{ env.EC2_USER }}
+          remote_key: ${{ secrets.EC2_SSH_KEY }}
+
+      - name: SSH into EC2 and set up frontend and cron
         uses: appleboy/ssh-action@v1.2.0
         with:
           host: ${{ env.EC2_HOST }}
           username: ${{ env.EC2_USER }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            echo "Current directory before cd:"
-            pwd  # Print the current directory!
-            echo "Changing to directory: ${{ env.EC2_PATH }}"
-            cd ${{ env.EC2_PATH }} || { echo "Failed to change directory to ${{ env.EC2_PATH }}"; exit 1; }
-            echo "Current directory after cd:"
-            pwd  # Print the current directory again
-            tar -xzf build.tar.gz
-            rm build.tar.gz
-
-            pm2 restart treegpt || pm2 start npm --name treegpt -- run start
+            # Set up frontend
+            cd ${{ env.EC2_FRONTEND_PATH }} || { echo "Failed to cd to ${{ env.EC2_FRONTEND_PATH }}"; exit 1; }
+            tar -xzf frontend.tar.gz
+            rm frontend.tar.gz
+            npm install --production
+            pm2 restart ballknower || pm2 start npm --name "ballknower" -- run start -- -e BALLKNOWER_DB_PATH=${{ env.BALLKNOWER_DB_PATH }}
             pm2 save
+
+            # Set up cron
+            cd ${{ env.EC2_CRON_PATH }} || { echo "Failed to cd to ${{ env.EC2_CRON_PATH }}"; exit 1; }
+            tar -xzf cron.tar.gz
+            rm cron.tar.gz
+
+            # Move database to /home/ec2-user/data if it exists in cron folder
+            if [ -f ballknower.db ]; then
+              mkdir -p ${{ env.EC2_DATA_PATH }}
+              mv ballknower.db ${{ env.BALLKNOWER_DB_PATH }}
+            fi
+
+            # Ensure data directory permissions
+            mkdir -p ${{ env.EC2_DATA_PATH }}
+            chown -R ${{ env.EC2_USER }}:${{ env.EC2_USER }} ${{ env.EC2_DATA_PATH }}
+            chmod -R 700 ${{ env.EC2_DATA_PATH }}
+
+            # Set up cron job with environment variable
+            echo "BALLKNOWER_DB_PATH=${{ env.BALLKNOWER_DB_PATH }}" > cron_env
+            echo "* * * * * . ${{ env.EC2_CRON_PATH }}/cron_env; ${{ env.EC2_CRON_PATH }}/.venv/bin/python3 ${{ env.EC2_CRON_PATH }}/update_bets.py >> ${{ env.EC2_CRON_PATH }}/cron.log 2>&1" | crontab -
+
+            # Test cron script manually
+            . ${{ env.EC2_CRON_PATH }}/cron_env
+            ${{ env.EC2_CRON_PATH }}/.venv/bin/python3 ${{ env.EC2_CRON_PATH }}/update_bets.py
