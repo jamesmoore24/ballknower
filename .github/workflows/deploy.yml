@@ -5,8 +5,8 @@ on:
     branches: ["main"]
 
 env:
-  EC2_PATH: "/var/www/treegpt" # Replace with your app's path on EC2
-  EC2_HOST: "18.234.204.117"
+  EC2_PATH: "/var/www/ballknower" # Replace with your app's path on EC2
+  EC2_HOST: "54.163.25.58"
   EC2_USER: "ec2-user"
 
 jobs:
@@ -25,8 +25,6 @@ jobs:
       - name: Create .env file
         run: |
           echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" > .env
-          echo "DEEPSEEK_API_KEY=${{ secrets.DEEPSEEK_API_KEY }}" >> .env
-          echo "CEREBRAS_API_KEY=${{ secrets.CEREBRAS_API_KEY }}" >> .env
 
       - name: Install dependencies
         run: npm install
