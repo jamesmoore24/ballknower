@@ -1,0 +1,70 @@
+name: Deploy to EC2
+
+on:
+  push:
+    branches: ["main"]
+
+env:
+  EC2_PATH: "/var/www/treegpt" # Replace with your app's path on EC2
+  EC2_HOST: "18.234.204.117"
+  EC2_USER: "ec2-user"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Create .env file
+        run: |
+          echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" > .env
+          echo "DEEPSEEK_API_KEY=${{ secrets.DEEPSEEK_API_KEY }}" >> .env
+          echo "CEREBRAS_API_KEY=${{ secrets.CEREBRAS_API_KEY }}" >> .env
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Next.js
+        run: npm run build
+
+      - name: List files
+        run: ls -la
+
+      - name: Compress build folder (optional step)
+        run: tar -czf build.tar.gz .next node_modules package.json package-lock.json next.config.js postcss.config.js tailwind.config.ts tsconfig.json .env
+
+      - name: Copy files to EC2 via rsync
+        uses: burnett01/rsync-deployments@7.0.1
+        with:
+          switches: -avzr --delete --no-times
+          path: build.tar.gz
+          remote_path: ${{ env.EC2_PATH }}
+          remote_host: ${{ env.EC2_HOST }}
+          remote_user: ${{ env.EC2_USER }}
+          remote_key: ${{ secrets.EC2_SSH_KEY }}
+
+      - name: SSH into EC2 and unpack
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ env.EC2_HOST }}
+          username: ${{ env.EC2_USER }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            echo "Current directory before cd:"
+            pwd  # Print the current directory!
+            echo "Changing to directory: ${{ env.EC2_PATH }}"
+            cd ${{ env.EC2_PATH }} || { echo "Failed to change directory to ${{ env.EC2_PATH }}"; exit 1; }
+            echo "Current directory after cd:"
+            pwd  # Print the current directory again
+            tar -xzf build.tar.gz
+            rm build.tar.gz
+
+            pm2 restart treegpt || pm2 start npm --name treegpt -- run start
+            pm2 save
