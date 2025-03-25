@@ -3,7 +3,10 @@ import sqlite3
 import random
 import requests
 from bs4 import BeautifulSoup
+from dotenv import load_dotenv
 import os
+
+load_dotenv()
 
 # Get the database path from an environment variable, with a fallback for local dev
 DB_PATH = os.environ.get('BALLKNOWER_DB_PATH', 'ballknower.db')

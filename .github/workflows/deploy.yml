@@ -96,7 +96,7 @@ jobs:
             tar -xzf frontend.tar.gz
             rm frontend.tar.gz
             npm install --production
-            pm2 restart ballknower || pm2 start npm --name "ballknower" -- run start -- -e BALLKNOWER_DB_PATH=${{ env.BALLKNOWER_DB_PATH }}
+            pm2 restart ballknower || pm2 start npm --name "ballknower" -- run start
             pm2 save
 
             # Set up cron
@@ -116,9 +116,5 @@ jobs:
             chmod -R 700 ${{ env.EC2_DATA_PATH }}
 
             # Set up cron job with environment variable
-            echo "BALLKNOWER_DB_PATH=${{ env.BALLKNOWER_DB_PATH }}" > cron_env
-            echo "* * * * * . ${{ env.EC2_CRON_PATH }}/cron_env; ${{ env.EC2_CRON_PATH }}/.venv/bin/python3 ${{ env.EC2_CRON_PATH }}/update_bets.py >> ${{ env.EC2_CRON_PATH }}/cron.log 2>&1" | crontab -
-
-            # Test cron script manually
-            . ${{ env.EC2_CRON_PATH }}/cron_env
-            ${{ env.EC2_CRON_PATH }}/.venv/bin/python3 ${{ env.EC2_CRON_PATH }}/update_bets.py
+            echo "BALLKNOWER_DB_PATH=${{ env.BALLKNOWER_DB_PATH }}" > .env
+            echo "* * * * * . ${{ env.EC2_CRON_PATH }}/.env; /usr/bin/python3 ${{ env.EC2_CRON_PATH }}/update_bets.py >> ${{ env.EC2_CRON_PATH }}/cron.log 2>&1" | crontab -
