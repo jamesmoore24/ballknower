@@ -71,13 +71,14 @@ jobs:
 
       - name: Compress cron files
         run: |
+          cd cron
           tar -czf cron.tar.gz update_bets.py requirements.txt bet-cron.sh .venv
 
       - name: Copy cron files to EC2 via rsync
         uses: burnett01/rsync-deployments@7.0.1
         with:
           switches: -avzr --delete --no-times
-          path: cron.tar.gz
+          path: cron/cron.tar.gz
           remote_path: ${{ env.EC2_CRON_PATH }}
           remote_host: ${{ env.EC2_HOST }}
           remote_user: ${{ env.EC2_USER }}
