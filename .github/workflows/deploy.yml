@@ -64,14 +64,15 @@ jobs:
 
       - name: Create virtual environment and install cron dependencies with uv
         run: |
+          cd cron
           uv venv --python $(which python3)  # Create virtual environment
           source .venv/bin/activate
-          cd cron
           uv pip install -r requirements.txt  # Install dependencies
 
       - name: Compress cron files
         run: |
           cd cron
+          ls -la
           tar -czf cron.tar.gz update_bets.py requirements.txt bet-cron.sh .venv
 
       - name: Copy cron files to EC2 via rsync
