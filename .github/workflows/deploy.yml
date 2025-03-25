@@ -71,8 +71,6 @@ jobs:
 
       - name: Compress cron files
         run: |
-          cd cron
-          ls -la
           tar -czf cron.tar.gz update_bets.py requirements.txt bet-cron.sh .venv
 
       - name: Copy cron files to EC2 via rsync
