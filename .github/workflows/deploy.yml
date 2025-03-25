@@ -117,4 +117,4 @@ jobs:
 
             # Set up cron job with environment variable
             echo "BALLKNOWER_DB_PATH=${{ env.BALLKNOWER_DB_PATH }}" > .env
-            echo "* * * * * . ${{ env.EC2_CRON_PATH }}/.env; /usr/bin/python3 ${{ env.EC2_CRON_PATH }}/update_bets.py >> ${{ env.EC2_CRON_PATH }}/cron.log 2>&1" | crontab -
+            echo "* * * * * /home/ec2-user/cron/bet-cron.sh
