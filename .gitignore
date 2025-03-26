@@ -1,2 +1,5 @@
 /node_modules
 /cron/.venv
+.env
+cron/cron.log
+cron/ballknower.db
