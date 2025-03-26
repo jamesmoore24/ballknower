@@ -1,7 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Icon from "@/public/icon.png";
+import Icon from "@/public/favicon.ico";
 import Icon16 from "@/public/icon16.png";
 import Icon32 from "@/public/icon32.png";
 
