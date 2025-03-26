@@ -32,8 +32,6 @@ export function getDatabase() {
 export function getAllEntries() {
   const db = getDatabase();
   console.log("db", db);
-  if (!db) return [];
-
   try {
     console.log("SELECTING ALL ENTRIES");
     return db.prepare("SELECT * FROM bets ORDER BY created_at DESC").all();
