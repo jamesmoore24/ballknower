@@ -8,9 +8,7 @@ export function getDatabase() {
 
   try {
     const config = getDbConfig();
-    console.log("config", config);
     db = sqlite3(config.path, { readonly: config.readOnly });
-    console.log("db", db);
 
     // Initialize schema
     if (!config.readOnly) {
@@ -33,9 +31,11 @@ export function getDatabase() {
 
 export function getAllEntries() {
   const db = getDatabase();
+  console.log("db", db);
   if (!db) return [];
 
   try {
+    console.log("SELECTING ALL ENTRIES");
     return db.prepare("SELECT * FROM bets ORDER BY created_at DESC").all();
   } catch (error) {
     console.error("Error getting entries:", error);
