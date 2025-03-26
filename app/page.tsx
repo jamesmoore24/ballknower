@@ -59,6 +59,27 @@ type Entry = {
 export default function Home() {
   const [entries, setEntries] = useState<Entry[]>([]);
   const [loading, setLoading] = useState(true);
+  const [dbStatus, setDbStatus] = useState<{
+    status: string;
+    message: string;
+  } | null>(null);
+  const [checkingDb, setCheckingDb] = useState(false);
+
+  const checkDatabaseConnection = async () => {
+    setCheckingDb(true);
+    try {
+      const res = await fetch("/api/health");
+      const data = await res.json();
+      setDbStatus(data);
+    } catch (error) {
+      setDbStatus({
+        status: "error",
+        message: "Failed to check database connection",
+      });
+    } finally {
+      setCheckingDb(false);
+    }
+  };
 
   const fetchEntries = async () => {
     setLoading(true);
@@ -134,7 +155,32 @@ export default function Home() {
       <div className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between mb-12">
-            <h2 className="text-3xl font-bold text-center">Recent Entries</h2>
+            <div className="flex items-center gap-4">
+              <h2 className="text-3xl font-bold text-center">Recent Entries</h2>
+              <Button
+                onClick={checkDatabaseConnection}
+                variant="outline"
+                size="sm"
+                className="flex items-center gap-2"
+                disabled={checkingDb}
+              >
+                <Shield
+                  className={`h-4 w-4 ${checkingDb ? "animate-spin" : ""}`}
+                />
+                Check DB
+              </Button>
+              {dbStatus && (
+                <span
+                  className={`text-sm ${
+                    dbStatus.status === "connected"
+                      ? "text-green-600"
+                      : "text-red-600"
+                  }`}
+                >
+                  {dbStatus.message}
+                </span>
+              )}
+            </div>
             <Button
               onClick={fetchEntries}
               variant="outline"
