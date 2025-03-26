@@ -10,6 +10,7 @@ export function getDatabase() {
     const config = getDbConfig();
     console.log("config", config);
     db = sqlite3(config.path, { readonly: config.readOnly });
+    console.log("db", db);
 
     // Initialize schema
     if (!config.readOnly) {
