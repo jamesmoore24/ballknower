@@ -62,6 +62,13 @@ export default function Home() {
   const [dbStatus, setDbStatus] = useState<{
     status: string;
     message: string;
+    details?: {
+      sizeBytes: number;
+      sizeMB: string;
+      tableCount: number;
+      lastUpdate: string;
+      tables: Array<{ table_name: string; row_count: number }>;
+    };
   } | null>(null);
   const [checkingDb, setCheckingDb] = useState(false);
 
@@ -170,15 +177,34 @@ export default function Home() {
                 Check DB
               </Button>
               {dbStatus && (
-                <span
-                  className={`text-sm ${
-                    dbStatus.status === "connected"
-                      ? "text-green-600"
-                      : "text-red-600"
-                  }`}
-                >
-                  {dbStatus.message}
-                </span>
+                <div className="text-sm">
+                  <span
+                    className={`font-medium ${
+                      dbStatus.status === "connected"
+                        ? "text-green-600"
+                        : "text-red-600"
+                    }`}
+                  >
+                    {dbStatus.message}
+                  </span>
+                  {dbStatus.details && (
+                    <div className="mt-1 text-muted-foreground">
+                      <div>Size: {dbStatus.details.sizeMB} MB</div>
+                      <div>Tables: {dbStatus.details.tableCount}</div>
+                      <div>
+                        Last Update:{" "}
+                        {new Date(dbStatus.details.lastUpdate).toLocaleString()}
+                      </div>
+                      <div className="mt-1">
+                        {dbStatus.details.tables.map((table) => (
+                          <div key={table.table_name} className="text-xs">
+                            {table.table_name}: {table.row_count} rows
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
               )}
             </div>
             <Button
