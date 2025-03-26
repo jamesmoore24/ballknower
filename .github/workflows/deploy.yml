@@ -32,7 +32,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install 
+          npm i
           npm i --save-dev @types/better-sqlite3
           cd node_modules
           ls -la

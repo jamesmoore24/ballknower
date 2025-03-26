@@ -28,6 +28,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import { getDbConfig } from "@/lib/db-config";
 
 const dummyData = [
   { date: "Jan", profit: 2400 },
@@ -62,6 +63,7 @@ export default function Home() {
   const fetchEntries = async () => {
     setLoading(true);
     try {
+      console.log(`Config: ${getDbConfig().path}`);
       const res = await fetch("/api/entries");
       const data = await res.json();
       setEntries(data.entries);
