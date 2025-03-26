@@ -10,7 +10,7 @@ env:
   EC2_DATA_PATH: "/home/ec2-user/data" # Database path
   EC2_HOST: "54.163.25.58"
   EC2_USER: "ec2-user"
-  BALLKNOWER_DB_PATH: "/home/ec2-user/data/ballknower.db" # Production DB path
+  NODE_ENV: "production"
 
 jobs:
   deploy:
@@ -28,7 +28,7 @@ jobs:
       - name: Create .env file for Next.js
         run: |
           echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" > .env
-          echo "BALLKNOWER_DB_PATH=${{ env.BALLKNOWER_DB_PATH }}" >> .env
+          echo "NODE_ENV=${{ env.NODE_ENV }}" >> .env
 
       - name: Install Next.js dependencies
         run: npm install
@@ -99,22 +99,12 @@ jobs:
             pm2 restart ballknower || pm2 start npm --name "ballknower" -- run start
             pm2 save
 
-            # Set up cron
+            # Set up cron directory
             cd ${{ env.EC2_CRON_PATH }} || { echo "Failed to cd to ${{ env.EC2_CRON_PATH }}"; exit 1; }
             tar -xzf cron.tar.gz
             rm cron.tar.gz
-
-            # Move database to /home/ec2-user/data if it exists in cron folder
-            if [ -f ballknower.db ]; then
-              mkdir -p ${{ env.EC2_DATA_PATH }}
-              mv ballknower.db ${{ env.BALLKNOWER_DB_PATH }}
-            fi
 
             # Ensure data directory permissions
             mkdir -p ${{ env.EC2_DATA_PATH }}
             chown -R ${{ env.EC2_USER }}:${{ env.EC2_USER }} ${{ env.EC2_DATA_PATH }}
             chmod -R 700 ${{ env.EC2_DATA_PATH }}
-
-            # Set up cron job with environment variable
-            echo "BALLKNOWER_DB_PATH=${{ env.BALLKNOWER_DB_PATH }}" > .env
-            echo "* * * * * /home/ec2-user/cron/bet-cron.sh >> /home/ec2-user/cron/cron.log 2>&1" | crontab -

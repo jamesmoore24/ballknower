@@ -1,26 +1,52 @@
 import Database from "better-sqlite3";
+import { getDbConfig } from "./db-config";
 
-// Use the BALLKNOWER_DB_PATH environment variable, default to 'ballknower.db' for local development
-const dbPath = process.env.BALLKNOWER_DB_PATH || "ballknower.db";
-const db = new Database(dbPath);
+let db: Database.Database | null = null;
 
-// Ensure the bets table exists (align with the schema used by update_bets.py)
-db.exec(`
-  CREATE TABLE IF NOT EXISTS bets (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    team TEXT,
-    odds REAL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-  )
-`);
+export function getDatabase() {
+  if (db) return db;
+
+  try {
+    const config = getDbConfig();
+    db = new Database(config.path, { readonly: config.readOnly });
+
+    // Initialize schema
+    if (!config.readOnly) {
+      db.exec(`
+        CREATE TABLE IF NOT EXISTS bets (
+          id INTEGER PRIMARY KEY AUTOINCREMENT,
+          team TEXT,
+          odds REAL,
+          created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+      `);
+    }
+
+    return db;
+  } catch (error) {
+    console.warn("Database initialization failed:", error);
+    return null;
+  }
+}
 
 export function getAllEntries() {
-  return db.prepare("SELECT * FROM bets ORDER BY created_at DESC").all();
+  const db = getDatabase();
+  if (!db) return [];
+
+  try {
+    return db.prepare("SELECT * FROM bets ORDER BY created_at DESC").all();
+  } catch (error) {
+    console.error("Error getting entries:", error);
+    return [];
+  }
 }
 
 export function addEntry(entry: { team: string; odds: number }) {
+  const db = getDatabase();
+  if (!db) return null;
+
   const stmt = db.prepare("INSERT INTO bets (team, odds) VALUES (?, ?)");
   return stmt.run(entry.team, entry.odds);
 }
 
-export default db;
+export default getDatabase();
