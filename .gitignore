@@ -3,7 +3,7 @@
 .env
 cron/cron.log
 cron/ballknower.db
-.next/
+.next
 .env.local
 .env.development.local
 .env.test.local
