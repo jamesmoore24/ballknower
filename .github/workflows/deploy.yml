@@ -32,8 +32,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install --legacy-peer-deps
-          npm install --save-dev @types/better-sqlite3@^7.6.12 --legacy-peer-deps
+          npm install 
+          npm i --save-dev @types/better-sqlite3
           cd node_modules
           ls -la
           cd ../

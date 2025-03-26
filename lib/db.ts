@@ -1,14 +1,14 @@
-import Database from "better-sqlite3";
+import sqlite3 from "better-sqlite3";
 import { getDbConfig } from "./db-config";
 
-let db: Database.Database | null = null;
+let db: any = null;
 
 export function getDatabase() {
   if (db) return db;
 
   try {
     const config = getDbConfig();
-    db = new Database(config.path, { readonly: config.readOnly });
+    db = sqlite3(config.path, { readonly: config.readOnly });
 
     // Initialize schema
     if (!config.readOnly) {
