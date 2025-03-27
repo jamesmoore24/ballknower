@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# THIS IS THE FILE WHICH WILL CONTAIN CALLS TO ALL CRON JOBS
+
 # Source the environment variables
 . /home/ec2-user/cron/.env
 

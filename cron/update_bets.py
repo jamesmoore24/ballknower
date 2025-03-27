@@ -9,7 +9,7 @@ from datetime import datetime
 load_dotenv()
 
 # Get the database path from an environment variable, with a fallback for local dev
-DB_PATH = os.environ.get('BALLKNOWER_DB_PATH', 'ballknower.db')
+DB_PATH = os.environ.get('BALLKNOWER_DB_PATH')
 
 def scrape_sample_odds():
     url = "https://example.com"  # Replace with a real sports betting site
