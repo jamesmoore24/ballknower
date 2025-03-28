@@ -117,6 +117,9 @@ def parse_over_under_stats(records, odds, current_players, i):
 
     Returns:
     - Updated odds dictionary
+
+
+    TODO: Make sure this works for multi-games!!!
     """
     while i < len(records) and not records[i].startswith('PA;'):
         record = records[i]
@@ -129,12 +132,14 @@ def parse_over_under_stats(records, odds, current_players, i):
 
         # New match
         if record.startswith('MG;'):
+            print("New match")
             current_players.clear()
-            i += 1
+            i += 2 # Skip next 'MA' record
             continue
 
         # Initial player list with names
         elif record.startswith('PA;') and 'NA=' in record:
+            print("Initial player list")
             parts = record.split(';')
             name = None
             for part in parts:
@@ -151,11 +156,9 @@ def parse_over_under_stats(records, odds, current_players, i):
             i += 1
             player_index = 0
 
-            while i < len(records):
+            while i < len(records) and not (records[i].startswith('MG;') or records[i].startswith('MA;')):
                 entry = records[i]
-
-                if entry.startswith('MG;') or entry.startswith('MA;'):
-                    break  # Next section
+                print(entry)
 
                 if entry.startswith('PA;') and 'OD=' in entry and 'HA=' in entry:
                     parts = entry.split(';')
@@ -180,6 +183,8 @@ def parse_over_under_stats(records, odds, current_players, i):
                             })
                     player_index += 1
                 i += 1
+            
+            print("--------------------------------")
 
         else:
             i += 1
