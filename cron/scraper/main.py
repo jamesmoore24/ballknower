@@ -60,6 +60,7 @@ def process_traffic_file(file_path: str) -> List[Dict[str, Any]]:
                         
                         # Process the traffic data
                         processed_data = parser.process_traffic(traffic_data)
+                        print(f"Processed data: {processed_data['stat_type']}")
                         
                         # Send to endpoint
                         parser.send_to_endpoint(processed_data)
