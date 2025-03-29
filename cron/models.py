@@ -8,7 +8,6 @@ import datetime
 class BookPayload(BaseModel):
     id: Optional[int] = None  # Auto-generated on insertion.
     name: str                   # e.g., "PrizePicks", "FanDuel"
-    tier: int                   # 1, 2, or 3 based on market sharpness.
     website: Optional[HttpUrl] = None  # Optional URL for reference or automated login.
 
 # ---------------------------
