@@ -6,9 +6,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-PRODUCTION_SERVER_IP = os.getenv("PRODUCTION_SERVER_IP")
-PRODUCTION_SERVER_PORT = "8000"
-PRODUCTION_SERVER_ENDPOINT = f"http://{PRODUCTION_SERVER_IP}:{PRODUCTION_SERVER_PORT}/api/odds"
 
 class BaseParser(ABC):
     """Base class for all traffic parsers"""
@@ -23,7 +20,7 @@ class BaseParser(ABC):
         """Process the traffic data and return processed results"""
         pass
         
-    def send_to_endpoint(self, processed_data: Dict[str, Any]) -> None:
+    def send_to_endpoint(self, processed_data: Dict[str, Any], endpoint: str = PRODUCTION_SERVER_ENDPOINT) -> None:
         """Send processed data to the configured endpoint"""
         try:
             response = requests.post(PRODUCTION_SERVER_ENDPOINT, json=processed_data)

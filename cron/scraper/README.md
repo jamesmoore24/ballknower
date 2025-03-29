@@ -118,7 +118,3 @@ By following these steps, you can:
 For further details, refer to the code comments and [mitmproxy documentation](https://docs.mitmproxy.org/).
 
 Happy scraping!
-
-```
-
-```

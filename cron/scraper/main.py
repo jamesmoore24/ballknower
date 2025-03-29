@@ -15,6 +15,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+PRODUCTION_SERVER_IP = os.getenv("PRODUCTION_SERVER_IP")
+PRODUCTION_SERVER_PORT = "8000"
+PRODUCTION_SERVER_ENDPOINT = f"http://{PRODUCTION_SERVER_IP}:{PRODUCTION_SERVER_PORT}/api/odds"
+
+
 def process_traffic_file(file_path: str) -> List[Dict[str, Any]]:
     """
     Process a traffic.mitm file and route requests to appropriate parsers based on URL

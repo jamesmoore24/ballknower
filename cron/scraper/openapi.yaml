@@ -1,0 +1,79 @@
+openapi: 3.0.3
+info:
+  title: Sports Betting API
+  description: API to manage players, games, odds, predictions, books, and related data.
+  version: 1.0.0
+servers:
+  - url: http://localhost:8000
+paths:
+  /{resource}/insert:
+    post:
+      summary: Insert a new record into a resource.
+      parameters:
+        - name: resource
+          in: path
+          required: true
+          schema:
+            type: string
+            enum:
+              - books
+              - teams
+              - players
+              - games
+              - player_stats
+              - odds
+              - predictions
+              - bet_picks
+              - injury_reports
+              - scrape_logs
+              - user_accounts
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/DynamicPayload"
+      responses:
+        "200":
+          description: Inserted successfully
+  /{resource}/query_by_id:
+    get:
+      summary: Retrieve a single record by ID
+      parameters:
+        - name: resource
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: id
+          in: query
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Record found
+  /{resource}/latest:
+    get:
+      summary: Retrieve the latest N records
+      parameters:
+        - name: resource
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: limit
+          in: query
+          required: false
+          schema:
+            type: integer
+            default: 10
+      responses:
+        "200":
+          description: Latest records
+components:
+  schemas:
+    DynamicPayload:
+      type: object
+      description: Generic schema to allow flexible payloads; type validation is done at runtime.
+      additionalProperties: true
