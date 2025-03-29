@@ -1,586 +1,0 @@
-9105:9:websocket;0:~8:response;651:6:reason;0:,11:status_code;3:200#13:timestamp_end;17:1743165802.805423^15:timestamp_start;18:1743165802.8022778^8:trailers;0:~7:content;0:,7:headers;470:40:4:date,29:Fri, 28 Mar 2025 12:43:22 GMT,]22:14:content-length,1:0,]29:15:cf-cache-status,7:DYNAMIC,]298:10:set-cookie,279:__cf_bm=R5iIiD1rSHWT3dGPB9gK7HkitphnLh9Vb4hn58bRJRU-1743165802-1.0.1.1-eD23meXj30.H7ntkYN_roxf7H5mkZ7CDmpCKr1xQLxPrG0lR_N1BKb0JA_XDzD3PrUqSYHKGO.JhIfkCVxv7ERoZ011iwkEYkfpwsOdCh5w; path=/; expires=Fri, 28-Mar-25 13:13:22 GMT; domain=.bet365.com.au; HttpOnly; Secure; SameSite=None,]23:6:server,10:cloudflare,]33:6:cf-ray,20:9277367aca60906e-BOS,]]12:http_version;8:HTTP/2.0,}7:request;3534:4:path;57:/uicountersapi/increment?socket_connection_public=2271.30,9:authority;17:www.bet365.com.au,6:scheme;5:https,6:method;3:GET,4:port;3:443#4:host;17:www.bet365.com.au;13:timestamp_end;18:1743165802.6385112^15:timestamp_start;17:1743165802.634929^8:trailers;0:~7:content;0:,7:headers;3211:56:12:x-request-id,36:acbeae07-518a-d5fa-2ad3-7de07e76fc1f,]32:18:sec-ch-ua-platform,7:"macOS",]136:10:user-agent,117:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36,]81:9:sec-ch-ua,65:"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134",]1453:15:x-net-sync-term,1428:ArwABAC6AAGbpYR/qKh2o6KDMNSLuqsJSvFbGRPHk89A1FVjhs/XdEduIAsmIEJtymYIMJlrK+XDt+K2qjoqHI79cTB5lWekR3xY1J0UD6llS4weIZIfziX5sIkMSLLlGz+/+LG6JXMz0U1O45uf4cqA9nBCjE3FMOYJOfOANU4oig4Ms8JnwFwAjAPAkf6bhQPNupACk9ORT9fvjfJO5f2KXb2DsEFZSULewGGocl5q8C+TJo+x4tQN8NQAntvbCkMDmmIBQ3Mgt3uEOcKZR9z42zC7OZVE/ez/mWexrjy5W5NPAE7Rqdq4HRM5vHubJ77d/21DMsUQ4QhGmTtnq9PxTzDXF6uzMdX6PchFGQnXUby+Ap0VZNQyudVl0Y4OjhimBHG8JEiuvldXyhIhqjua667zidh5o00fsLDNfW5jnyFZVexpnLo5KdE43voO9zz8+BzbjQmSzNdRXeMpCNWGJD52iiu5uUOvVcHRht7g06LM58kU5HCLX6K4Om+yfkMHqQdYun+asbWlBlconOkIwc8p2m4YPXTwvSjHv1pRXVgq3ZakHfu4l3roxS2nJDl+MA/psH0oQ3Jj6SasuLCmx9IEm//wPKUX0+BFTWlcCRdjv9gOhjIwBqgJzfvd7FPjdE5z5/YO78Tpzsa3kpVAH2FP2c1KZ29eZk5zZrJERkfB9s6vZmSm0/FZmPjpFMIQvGBc0aL+51P9FCT7XyseSHWq1cbMQ4rv/hduFcowNAbJAUbhAfTSe2TCmZN6J8IVHZwtsOlFdu87UbKlvnmjdyvjjGHrE2gO06opVNDIYn6PVjjtjvkQtlPruVsRGo5wAwjVhkGL22KSPWUknslS6jhsfpKuZcEcmpEpPYZ5xyx11kdUdmhJRrujAfMKoPs2iNx0GTydhdA2RY2ENIn6H1L2Icuo7nx0iuKOp6PuCT3rKzcBtCsV4TBgJTgVaB8vqLE+bWdbln08ksca4CCXI7xwqdhJaQGlq3qO8EglfYFrD6Phug1ul1sZlJkK03/WiOzD+J0sId8oEeMT01XO50zboRnWPB4/y3hgASvOTwwtRmvRmkA+HSIui7CWINUrWM+au8UkAgH7ukJPKXNxVGPnxvXhp7YjPNQo7Nk7iin6Erlw/jYFzqze67RPQJ0J/kz0H/TCBOG5zPyetmG+DEqX3SQfvx49Gq3lXJe+oq8CfyoPW55L2ErQlYqgzV1tI2H2tDD8liwD9hfOsrCdWX65gABUWT7WA13+cludjgc72ihFFC4k25HRktxSQKKiFg9/M1iejl6P3wBRm0RVCGL3EizYPuKjG6UZEtXXNbVM13286mxu6btnM3IzJFNpPtdIev3Enwm62ye3zTGJUu2SE+Q7V7tJhB0b2PDOBYdpDZpluFoeL46jAcjw1VLVJdF0c/p6FJ8ACMlK,]25:16:sec-ch-ua-mobile,2:?0,]15:6:accept,3:*/*,]33:14:sec-fetch-site,11:same-origin,]25:14:sec-fetch-mode,4:cors,]26:14:sec-fetch-dest,5:empty,]40:7:referer,26:https://www.bet365.com.au/,]46:15:accept-encoding,23:gzip, deflate, br, zstd,]37:15:accept-language,14:en-US,en;q=0.9,]18:6:cookie,6:rmbs=3,]59:6:cookie,46:aps03=cf=N&cg=2&cst=0&ct=13&hd=N&lng=30&tzi=30,]16:6:cookie,4:cc=1,]24:6:cookie,11:cc2=p=1&m=1,]517:6:cookie,503:cf_clearance=A9HCF9Fu5gzVe7LLvZFs2gKu8NkVEsEBTXcgQkwRdjg-1743150548-1.2.1.1-FXkjqlxpUbNWxJ_nM4Abfo4cuS.nEhEw3Xno.HBF.sw6EqcQGbMuCB4LooDo9EgdXxWabA0VXbiXvLzK_WKMyUvAiCU7CFoMOI75PKmFAYlZPkmnoU841nwD89yEm78Wt3WSRvJNlZUZ61S1P5ELIS05XJaOqw58NPs54P8HxNxH4JkE9aq4cXuGjfPIrPCOnM4SVRinYYuiVFxc7YDiTNTqFnJ4RN.WQXr0pX_5.H_pctWj8PKkj6cuWX8f0HWHJWT5cCsqFqxiRjl.lBOKDbXfAIBseHsOdrOLW9cP7gPom5N.qG.BFwwgzfX0TzmspZAlT49cfHqNlqE5JB1aciahWmchc8CiLKkTzoWo4GQl_3suWvlN36R5qjq3zd9jozBqiF8hO2MkSSt2.sQ.jPT.LYnx3PhVaLEkhSDk_Hg,]192:6:cookie,178:__cf_bm=cE4KnTdwUhfkCh37z1f4xtxtvxH6bZ6wCkrzhyWhN9M-1743164579-1.0.1.1-QrUpT46CWjRfZdLOsBEUYDyBo5UtfwLMVxIjknStqr2gxLv63InIG8iztZokdBEQ0c76zh5v.Adkywe1OYg6kPEKHzb6c03.Y9ypGZvXNJI,]56:6:cookie,43:pstk=AA8B2F5F9D6BC738A84F1274FB93BCC3000003,]210:6:cookie,196:swt=ARCHj7i/+m57sTxV3TOMWR5Ci83qinvdbmezeRcQKDpkNs4EVFC9KLZQl57OSS9m0EZ8MQalxAeRtiveP1GHK0BBFu9wf55beZ32UFEZgTflwpb6Nkx9L1Y2pl1bU/8W0pPvKwayNY+H37Tkxv2kKaEqeTnqVBhbloIUv4TtjHERCDcTwdDJdOph8mVwg/Yw,]20:8:priority,6:u=1, i,]]12:http_version;8:HTTP/2.0,}6:backup;0:~17:timestamp_created;18:1743165802.6351411^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;4131:3:via;0:~19:timestamp_tcp_setup;18:1743165802.3633249^7:address;27:17:www.bet365.com.au;3:443#]19:timestamp_tls_setup;17:1743165802.593865^13:timestamp_end;0:~15:timestamp_start;17:1743165802.342121^3:sni;17:www.bet365.com.au;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;2:h2,16:certificate_list;3581:1330:-----BEGIN CERTIFICATE-----
-MIIDqjCCA1GgAwIBAgIRAKC6nr+gspu7Ee6dKp6ghlEwCgYIKoZIzj0EAwIwOzEL
-MAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEMMAoG
-A1UEAxMDV0UxMB4XDTI1MDIwMzAzNTk1OFoXDTI1MDUwNDA0NTk1M1owGDEWMBQG
-A1UEAxMNYmV0MzY1LmNvbS5hdTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABFVn
-ViRJ/OdOTwhRkPWVMCRobVBkoaUuHSIm5hnIU2+YnnhBYWXMC23WFpGqL2jpJqLU
-5ooDWN6HBrmlpSzDit2jggJXMIICUzAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0lBAww
-CgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU83/wwt4hVYOulor/
-GKf5vD2Hc7QwHwYDVR0jBBgwFoAUkHeSNWfE/6jMqeZ72YB5e8yT+TgwXgYIKwYB
-BQUHAQEEUjBQMCcGCCsGAQUFBzABhhtodHRwOi8vby5wa2kuZ29vZy9zL3dlMS9v
-TG8wJQYIKwYBBQUHMAKGGWh0dHA6Ly9pLnBraS5nb29nL3dlMS5jcnQwKQYDVR0R
-BCIwIIINYmV0MzY1LmNvbS5hdYIPKi5iZXQzNjUuY29tLmF1MBMGA1UdIAQMMAow
-CAYGZ4EMAQIBMDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6Ly9jLnBraS5nb29nL3dl
-MS9pNHVfbWlacXcxRS5jcmwwggEEBgorBgEEAdZ5AgQCBIH1BIHyAPAAdgBOdaMn
-XJoQwzhbbNTfP1LrHfDgjhuNacCx+mSxYpo53wAAAZTKLfuRAAAEAwBHMEUCIQCP
-Vr9ZGre3duEaujHq7/qLu5PMEWpBeFJnr5eI82Sx7AIgbPHPihermKj5DDBtyjlF
-FYsGgAzQXaD1VXgkWHTGbiMAdgATSt8atZhCCXgMb+9MepGkFrcjSc5YV2rfrtqn
-wqvgIgAAAZTKLf1oAAAEAwBHMEUCIQDuBEqYVfrThh/UqcmBRG/ctiI6PogHr7Ot
-ts6OdSFBPQIgEqgnB9P8siZM2FHa5DKtd6XWKtfdvtrhUOzGlU8HiNcwCgYIKoZI
-zj0EAwIDRwAwRAIgDcn2MSjLOHY5h9G1g0+zTBVvlhXOulefVav39p4pEQkCIAxw
-hCcJCLqZA5tKAhZB0X8P1OzPj3s9pki12HOVzjtj
------END CERTIFICATE-----
-,969:-----BEGIN CERTIFICATE-----
-MIICnzCCAiWgAwIBAgIQf/MZd5csIkp2FV0TttaF4zAKBggqhkjOPQQDAzBHMQsw
-CQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExMQzEU
-MBIGA1UEAxMLR1RTIFJvb3QgUjQwHhcNMjMxMjEzMDkwMDAwWhcNMjkwMjIwMTQw
-MDAwWjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZp
-Y2VzMQwwCgYDVQQDEwNXRTEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARvzTr+
-Z1dHTCEDhUDCR127WEcPQMFcF4XGGTfn1XzthkubgdnXGhOlCgP4mMTG6J7/EFmP
-LCaY9eYmJbsPAvpWo4H+MIH7MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggr
-BgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQU
-kHeSNWfE/6jMqeZ72YB5e8yT+TgwHwYDVR0jBBgwFoAUgEzW63T/STaj1dj8tT7F
-avCUHYwwNAYIKwYBBQUHAQEEKDAmMCQGCCsGAQUFBzAChhhodHRwOi8vaS5wa2ku
-Z29vZy9yNC5jcnQwKwYDVR0fBCQwIjAgoB6gHIYaaHR0cDovL2MucGtpLmdvb2cv
-ci9yNC5jcmwwEwYDVR0gBAwwCjAIBgZngQwBAgEwCgYIKoZIzj0EAwMDaAAwZQIx
-AOcCq1HW90OVznX+0RGU1cxAQXomvtgM8zItPZCuFQ8jSBJSjz5keROv9aYsAm5V
-sQIwJonMaAFi54mrfhfoFNZEfuNMSQ6/bIBiNLiyoX46FohQvKeIoJ99cx7sUkFN
-7uJW
------END CERTIFICATE-----
-,1265:-----BEGIN CERTIFICATE-----
-MIIDejCCAmKgAwIBAgIQf+UwvzMTQ77dghYQST2KGzANBgkqhkiG9w0BAQsFADBX
-MQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UE
-CxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIzMTEx
-NTAzNDMyMVoXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoT
-GUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFI0
-MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAE83Rzp2iLYK5DuDXFgTB7S0md+8Fhzube
-Rr1r1WEYNa5A3XP3iZEwWus87oV8okB2O6nGuEfYKueSkWpz6bFyOZ8pn6KY019e
-WIZlD6GEZQbR3IvJx3PIjGov5cSr0R2Ko4H/MIH8MA4GA1UdDwEB/wQEAwIBhjAd
-BgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDwYDVR0TAQH/BAUwAwEB/zAd
-BgNVHQ4EFgQUgEzW63T/STaj1dj8tT7FavCUHYwwHwYDVR0jBBgwFoAUYHtmGkUN
-l8qJUC99BM00qP/8/UswNgYIKwYBBQUHAQEEKjAoMCYGCCsGAQUFBzAChhpodHRw
-Oi8vaS5wa2kuZ29vZy9nc3IxLmNydDAtBgNVHR8EJjAkMCKgIKAehhxodHRwOi8v
-Yy5wa2kuZ29vZy9yL2dzcjEuY3JsMBMGA1UdIAQMMAowCAYGZ4EMAQIBMA0GCSqG
-SIb3DQEBCwUAA4IBAQAYQrsPBtYDh5bjP2OBDwmkoWhIDDkic574y04tfzHpn+cJ
-odI2D4SseesQ6bDrarZ7C30ddLibZatoKiws3UL9xnELz4ct92vID24FfVbiI1hY
-+SW6FoVHkNeWIP0GCbaM4C6uVdF5dTUsMVs/ZbzNnIdCp5Gxmx5ejvEau8otR/Cs
-kGN+hr/W5GvT1tMBjgWKZ1i4//emhA1JG1BbPzoLJQvyEotc03lXjTaCzv8mEbep
-8RqZ7a2CPsgRbuvTPBwcOMBBmuFeU88+FSBX6+7iP0il8b4Z0QFqIwwMHfs/L6K1
-vepuoxtGzi4CZ68zJpiq1UvSqTbFJjtbD4seiMHl
------END CERTIFICATE-----
-,]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:755d64fd-ecb0-4154-9a80-b1a48b9ef4cd;8:sockname;24:12:10.31.170.21;5:54430#]8:peername;22:12:5.226.179.18;3:443#]}11:client_conn;484:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;18:1743165802.6274009^13:timestamp_end;0:~15:timestamp_start;17:1743165802.336298^3:sni;17:www.bet365.com.au;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;2:h2,16:certificate_list;0:]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:f9b829a8-01b6-4a62-a55b-965fb4343f95;8:sockname;19:9:127.0.0.1;4:8080#]8:peername;20:9:127.0.0.1;5:54429#]}5:error;0:~2:id;36:fb93f771-f8b7-414d-9062-48c5ed9457b6;4:type;4:http;7:version;2:21#}8823:9:websocket;0:~8:response;747:6:reason;0:,11:status_code;3:200#13:timestamp_end;17:1743165802.826199^15:timestamp_start;17:1743165802.823898^8:trailers;0:~7:content;112:{"membershipType":"pro","paymentId":"cus_QonIrTcqw3WJCb","daysRemainingOnTrial":0,"subscriptionStatus":"active"},7:headers;453:40:4:date,29:Fri, 28 Mar 2025 12:43:22 GMT,]45:12:content-type,25:text/plain; charset=utf-8,]24:14:content-length,3:112,]16:4:vary,6:Origin,]59:27:access-control-allow-origin,24:vscode-file://vscode-app,]43:32:access-control-allow-credentials,4:true,]197:29:access-control-expose-headers,159:Grpc-Status, Grpc-Message, Grpc-Status-Details-Bin, Content-Encoding, Connect-Content-Encoding, traceparent, backend-traceparent, x-amzn-trace-id, x-request-id,]]12:http_version;8:HTTP/2.0,}7:request;1378:4:path;25:/auth/full_stripe_profile,9:authority;14:api2.cursor.sh,6:scheme;5:https,6:method;3:GET,4:port;3:443#4:host;14:api2.cursor.sh;13:timestamp_end;17:1743165802.772212^15:timestamp_start;18:1743165802.7700639^8:trailers;0:~7:content;0:,7:headers;1093:56:9:sec-ch-ua,40:"Not;A=Brand";v="24", "Chromium";v="128",]23:12:x-ghost-mode,4:true,]74:11:traceparent,55:00-db28b1bc467d42d48f0c5b2507480bae-a3d55c5bb5686aba-00,]25:16:sec-ch-ua-mobile,2:?0,]421:13:authorization,399:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnaXRodWJ8dXNlcl8wMUo2NFdIMVA2RlQzNlZHVzFQVDczQ0EzSCIsInRpbWUiOiIxNzI1NjIyOTg1IiwicmFuZG9tbmVzcyI6ImQ1NGRkMDA0LWU1NDktNDIzZCIsImV4cCI6NDMxNzYyMjk4NSwiaXNzIjoiaHR0cHM6Ly9hdXRoZW50aWNhdGlvbi5jdXJzb3Iuc2giLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIG9mZmxpbmVfYWNjZXNzIiwiYXVkIjoiaHR0cHM6Ly9jdXJzb3IuY29tIn0.TWyTOomDyHFBtFxNc4UB28_U4F9CJPkppA7UAM9ysSw,]172:10:user-agent,153:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cursor/0.45.14 Chrome/128.0.6613.186 Electron/32.2.6 Safari/537.36,]32:18:sec-ch-ua-platform,7:"macOS",]15:6:accept,3:*/*,]37:6:origin,24:vscode-file://vscode-app,]32:14:sec-fetch-site,10:cross-site,]25:14:sec-fetch-mode,4:cors,]26:14:sec-fetch-dest,5:empty,]46:15:accept-encoding,23:gzip, deflate, br, zstd,]27:15:accept-language,5:en-US,]20:8:priority,6:u=1, i,]]12:http_version;8:HTTP/2.0,}6:backup;0:~17:timestamp_created;17:1743165802.770337^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;5914:3:via;0:~19:timestamp_tcp_setup;17:1743165802.697292^7:address;24:14:api2.cursor.sh;3:443#]19:timestamp_tls_setup;17:1743165802.730567^13:timestamp_end;0:~15:timestamp_start;17:1743165802.676508^3:sni;14:api2.cursor.sh;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_128_GCM_SHA256;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;2:h2,16:certificate_list;5369:2130:-----BEGIN CERTIFICATE-----
-MIIF+TCCBOGgAwIBAgIQBOX6HY2J8+lhCbo0AHQ2YTANBgkqhkiG9w0BAQsFADA8
-MQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRwwGgYDVQQDExNBbWF6b24g
-UlNBIDIwNDggTTAzMB4XDTI0MTIxMTAwMDAwMFoXDTI2MDExMDIzNTk1OVowGTEX
-MBUGA1UEAxMOYXBpMi5jdXJzb3Iuc2gwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
-ggEKAoIBAQCyqEzTXHWENj9gcxPEVtktZpko2EzyNIKzwDHw1y7bSBT2t26L9uPL
-kjaWGdPchhbcuf8IQqmtmqtNDgEQlvkvezsAJrEUS+YwW4LhHOv94fZ7eztJXrvX
-iU7k3Uhs4HNHM5Cz6YdNNHfnLohuP8HRuHYXoEJ5YUhUWYXMPTKC7yABGvf1CoxK
-yOYVU3m1x4g9yPE6mJvmI1FV50wj+Xh2tCsG6sKMVk1K6LhCexnkH+CGV0bYTOWW
-Bm24+tS4oCRsnkslLHBF/fQ2kxNR3omVozzUaUBUVL9jMjr60dH5Y8kts9p32v9c
-YOmwCbpTSOXlnZwiLDREUyzvBRRXioXRAgMBAAGjggMYMIIDFDAfBgNVHSMEGDAW
-gBRV2Rhf0hzMAeFYtL6r2VVCAdcuAjAdBgNVHQ4EFgQUbsT6ZwTAOIdWkZXK1trg
-1VKjzbAwSgYDVR0RBEMwQYIOYXBpMi5jdXJzb3Iuc2iCHXByb2QuYXV0aGVudGlj
-YXRpb24uY3Vyc29yLnNoghAqLmFwaTIuY3Vyc29yLnNoMBMGA1UdIAQMMAowCAYG
-Z4EMAQIBMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYB
-BQUHAwIwOwYDVR0fBDQwMjAwoC6gLIYqaHR0cDovL2NybC5yMm0wMy5hbWF6b250
-cnVzdC5jb20vcjJtMDMuY3JsMHUGCCsGAQUFBwEBBGkwZzAtBggrBgEFBQcwAYYh
-aHR0cDovL29jc3AucjJtMDMuYW1hem9udHJ1c3QuY29tMDYGCCsGAQUFBzAChipo
-dHRwOi8vY3J0LnIybTAzLmFtYXpvbnRydXN0LmNvbS9yMm0wMy5jZXIwDAYDVR0T
-AQH/BAIwADCCAX4GCisGAQQB1nkCBAIEggFuBIIBagFoAHcAlpdkv1VYl633Q4do
-NwhCd+nwOtX2pPM2bkakPw/KqcYAAAGTs5RGrQAABAMASDBGAiEAhXwT/Oii5fd1
-RCJ9mY1ZZ6WQ8LfL7szPlwftefJDVhECIQCGu/ga1ek2b6xQfoUWAMshtNXqIysU
-/G6CqTc0YtJZuAB1AGQRxGykEuyniRyiAi4AvKtPKAfUHjUnq+r+1QPJfc3wAAAB
-k7OURqcAAAQDAEYwRAIgcfwka0S/MzYBpyaECV3WD1uo/s0i4vAKDGNHr1ieQ8QC
-IGGnFdfDpHEwM/hMF/QpkGLGlcarW5tvcWgqjtwcsSCGAHYASZybad4dfOz8Nt7N
-h2SmuFuvCoeAGdFVUvvp6ynd+MMAAAGTs5RGtwAABAMARzBFAiBfL3ODfs7/blt6
-0vZStOmzIw+PfBJGLpiQOERwfG7wEgIhAPCUjSElqPf3KdE0KMRVPs9fL8aPztfc
-hgrMBGPK7YDCMA0GCSqGSIb3DQEBCwUAA4IBAQABs15xyAAjB1HRxuxA/X6E/zIq
-Wd6naI7NslmPHmAhIh/KqydUNa+dYEayzpOgvdXj2LX5sHcC3SqXm2lWr5bRz1JR
-w7CzWDtLDgzMvdFgqoyOmWTxAFiW+f+UY74Ndrl5nhVTrJQoom1iOmPP2v3kWUId
-KdVV8BQtIcropnnCy8FZfFCDTpdViBVyB/Lfy4n1amTtRq24lC1rYns4BTkDh/QE
-P8tFMtHz46+z32yISOI/Di+IVuxh+q/Gi/eerVPft0pqVQHsx/j0XkGYkcCwV6/f
-LX+93X6IEwImB5JpYF6jbnYAyc8sPh65XXdBdQM+Gnog2Og7iJeMWrhfajsp
------END CERTIFICATE-----
-,1574:-----BEGIN CERTIFICATE-----
-MIIEXjCCA0agAwIBAgITB3MSTNQG0mfAmRzdKZqfODF5hTANBgkqhkiG9w0BAQsF
-ADA5MQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRkwFwYDVQQDExBBbWF6
-b24gUm9vdCBDQSAxMB4XDTIyMDgyMzIyMjYwNFoXDTMwMDgyMzIyMjYwNFowPDEL
-MAkGA1UEBhMCVVMxDzANBgNVBAoTBkFtYXpvbjEcMBoGA1UEAxMTQW1hem9uIFJT
-QSAyMDQ4IE0wMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALd/pVko
-8vuM475Tf45HV3BbCl/B9Jy89G1CRkFjcPY06WA9lS+7dWbUA7GtWUKoksr69hKM
-wcMsNpxlw7b3jeXFgxB09/nmalcAWtnLzF+LaDKEA5DQmvKzuh1nfIfqEiKCQSmX
-Xh09Xs+dO7cm5qbaL2hhNJCSAejciwcvOFgFNgEMR42wm6KIFHsQW28jhA+1u/M0
-p6fVwReuEgZfLfdx82Px0LJck3lST3EB/JfbdsdOzzzg5YkY1dfuqf8y5fUeZ7Cz
-WXbTjujwX/TovmeWKA36VLCz75azW6tDNuDn66FOpADZZ9omVaF6BqNJiLMVl6P3
-/c0OiUMC6Z5OfKcCAwEAAaOCAVowggFWMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYD
-VR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAdBgNV
-HQ4EFgQUVdkYX9IczAHhWLS+q9lVQgHXLgIwHwYDVR0jBBgwFoAUhBjMhTTsvAyU
-lC4IWZzHshBOCggwewYIKwYBBQUHAQEEbzBtMC8GCCsGAQUFBzABhiNodHRwOi8v
-b2NzcC5yb290Y2ExLmFtYXpvbnRydXN0LmNvbTA6BggrBgEFBQcwAoYuaHR0cDov
-L2NydC5yb290Y2ExLmFtYXpvbnRydXN0LmNvbS9yb290Y2ExLmNlcjA/BgNVHR8E
-ODA2MDSgMqAwhi5odHRwOi8vY3JsLnJvb3RjYTEuYW1hem9udHJ1c3QuY29tL3Jv
-b3RjYTEuY3JsMBMGA1UdIAQMMAowCAYGZ4EMAQIBMA0GCSqGSIb3DQEBCwUAA4IB
-AQAGjeWm2cC+3z2MzSCnte46/7JZvj3iQZDY7EvODNdZF41n71Lrk9kbfNwerK0d
-VNzW36Wefr7j7ZSwBVg50W5ay65jNSN74TTQV1yt4WnSbVvN6KlMs1hiyOZdoHKs
-KDV2UGNxbdoBYCQNa2GYF8FQIWLugNp35aSOpMy6cFlymFQomIrnOQHwK1nvVY4q
-xDSJMU/gNJz17D8ArPN3ngnyZ2TwepJ0uBINz3G5te2rdFUF4i4Y3Bb7FUlHDYm4
-u8aIRGpk2ZpfXmxaoxnbIBZRvGLPSUuPwnwoUOMsJ8jirI5vs2dvchPb7MtI1rle
-i02f2ivH2vxkjDLltSpe2fiC
------END CERTIFICATE-----
-,1647:-----BEGIN CERTIFICATE-----
-MIIEkjCCA3qgAwIBAgITBn+USionzfP6wq4rAfkI7rnExjANBgkqhkiG9w0BAQsF
-ADCBmDELMAkGA1UEBhMCVVMxEDAOBgNVBAgTB0FyaXpvbmExEzARBgNVBAcTClNj
-b3R0c2RhbGUxJTAjBgNVBAoTHFN0YXJmaWVsZCBUZWNobm9sb2dpZXMsIEluYy4x
-OzA5BgNVBAMTMlN0YXJmaWVsZCBTZXJ2aWNlcyBSb290IENlcnRpZmljYXRlIEF1
-dGhvcml0eSAtIEcyMB4XDTE1MDUyNTEyMDAwMFoXDTM3MTIzMTAxMDAwMFowOTEL
-MAkGA1UEBhMCVVMxDzANBgNVBAoTBkFtYXpvbjEZMBcGA1UEAxMQQW1hem9uIFJv
-b3QgQ0EgMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALJ4gHHKeNXj
-ca9HgFB0fW7Y14h29Jlo91ghYPl0hAEvrAIthtOgQ3pOsqTQNroBvo3bSMgHFzZM
-9O6II8c+6zf1tRn4SWiw3te5djgdYZ6k/oI2peVKVuRF4fn9tBb6dNqcmzU5L/qw
-IFAGbHrQgLKm+a/sRxmPUDgH3KKHOVj4utWp+UhnMJbulHheb4mjUcAwhmahRWa6
-VOujw5H5SNz/0egwLX0tdHA114gk957EWW67c4cX8jJGKLhD+rcdqsq08p8kDi1L
-93FcXmn/6pUCyziKrlA4b9v7LWIbxcceVOF34GfID5yHI9Y/QCB/IIDEgEw+OyQm
-jgSubJrIqg0CAwEAAaOCATEwggEtMA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/
-BAQDAgGGMB0GA1UdDgQWBBSEGMyFNOy8DJSULghZnMeyEE4KCDAfBgNVHSMEGDAW
-gBScXwDfqgHXMCs4iKK4bUqc8hGRgzB4BggrBgEFBQcBAQRsMGowLgYIKwYBBQUH
-MAGGImh0dHA6Ly9vY3NwLnJvb3RnMi5hbWF6b250cnVzdC5jb20wOAYIKwYBBQUH
-MAKGLGh0dHA6Ly9jcnQucm9vdGcyLmFtYXpvbnRydXN0LmNvbS9yb290ZzIuY2Vy
-MD0GA1UdHwQ2MDQwMqAwoC6GLGh0dHA6Ly9jcmwucm9vdGcyLmFtYXpvbnRydXN0
-LmNvbS9yb290ZzIuY3JsMBEGA1UdIAQKMAgwBgYEVR0gADANBgkqhkiG9w0BAQsF
-AAOCAQEAYjdCXLwQtT6LLOkMm2xF4gcAevnFWAu5CIw+7bMlPLVvUOTNNWqnkzSW
-MiGpSESrnO09tKpzbeR/FoCJbM8oAxiDR3mjEH4wW6w7sGDgd9QIpuEdfF7Au/ma
-eyKdpwAJfqxGF4PcnCZXmTA5YpaP7dreqsXMGz7KQ2hsVxa81Q4gLv7/wmpdLqBK
-bRRYh5TmOTFffHPLkIhqhBGWJ6bt2YFGpn6jcgAKUj6DiAdjd4lpFw85hdKrCEVN
-0FE6/V1dN2RMfjCyVSRCnTawXZwXgWHxyvkQAiSr6w10kY17RSlQOYiypok1JR4U
-akcjMS9cmvqtmg5iUaQqqcT5NJ0hGA==
------END CERTIFICATE-----
-,]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:14cf7af8-48aa-4134-83c8-65a56858e7e1;8:sockname;24:12:10.31.170.21;5:54432#]8:peername;24:14:34.197.205.171;3:443#]}11:client_conn;480:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;17:1743165802.766046^13:timestamp_end;0:~15:timestamp_start;17:1743165802.674921^3:sni;14:api2.cursor.sh;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;2:h2,16:certificate_list;0:]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:c3f81161-5fed-443f-9a6a-7691e7572579;8:sockname;19:9:127.0.0.1;4:8080#]8:peername;20:9:127.0.0.1;5:54431#]}5:error;0:~2:id;36:c1f67057-55a5-415f-aede-53b1c2b84f9a;4:type;4:http;7:version;2:21#}15121:9:websocket;0:~8:response;1415:6:reason;0:,11:status_code;3:200#13:timestamp_end;18:1743165804.7209659^15:timestamp_start;16:1743165804.71734^8:trailers;0:~7:content;571:ã     ˇúêMkQÜ-∫–Í¢∏WRÍmÓ◊‹πS(òLböè¶ì416ª{Áﬁô$ùd“ôƒ1ë"]
-"¯tÂ¬†;˜Çn‹t!∏ÍŒï¿D+]	‚Yú≈ÅÁyyœÚÎóWñÆ{ùçl˛`úÌÃÏ±”ÃÀµ¨∞›≤Ó˜å¬¿©e4∂p5NÃbT*lñi€€üî,îè˚≠6ï=ºÁX˘l§äë∞&:#ê≤]t¶Éƒ˛Ê&<>˛¯Â‰Ì”ÛŒÀW/Næ‚+ˇê=Ÿô6±ÄwaElÌV21=>túÌ}ªhÑÍˆ√Nÿ¨MÚÌ†kB≠0 Y(ç˝úÌ'Êê’JQRˇøl’è"øP¨UÎÂv≠Ì£ÄÁé5ˆÎv©ô{ÄPa6—aîπîk	<∞ÂAò»ÅëÎÌÓTΩ∂Ÿö‚˚nÚóÏõ)Dò≈ÄT
-©8ÙL¿≈úô Dö√üN…ÔœœHìyÜX Ã	T!	§ÀÊB=…§	!±‡—ÁSÚ›≥3“ÂXÀπ(+@-çÄD⁄r¶MePé(|Úá|ˇõLù√∑fp1àπ¿Çúì,.øñ1ëêz„“≈£ïooñÆu¢£•Â«WÌntj;kß°ÎpùY_Gå•“Pb¶à@Z#M©ab:Ô±ãµÅ=œùˇF∏&úWã¥gd$ÜntµPqf!πÛËFòÆ¶‹Æuêé«Bzı∂?Îç“æßW  ˇˇ ◊ ø ›  ,7:headers;662:68:12:content-type,48:application/vnd.google.octet-stream-compressible,]57:4:vary,46:Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,]67:13:cache-control,46:no-cache, no-store, max-age=0, must-revalidate,]20:6:pragma,8:no-cache,]43:7:expires,29:Mon, 01 Jan 1990 00:00:00 GMT,]40:4:date,29:Fri, 28 Mar 2025 12:43:24 GMT,]58:19:content-disposition,31:attachment; filename="response",]58:26:cross-origin-opener-policy,24:same-origin-allow-popups,]27:16:content-encoding,4:gzip,]15:6:server,3:ESF,]24:16:x-xss-protection,1:0,]33:15:x-frame-options,10:SAMEORIGIN,]36:22:x-content-type-options,7:nosniff,]60:7:alt-svc,46:h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,]]12:http_version;8:HTTP/2.0,}7:request;3648:4:path;81:/chrome-sync/command/?client=Google+Chrome&client_id=0mUVxOIaMocGwuBpACzElg%3D%3D,9:authority;19:clients4.google.com,6:scheme;5:https,6:method;4:POST,4:port;3:443#4:host;19:clients4.google.com;13:timestamp_end;18:1743165804.4691641^15:timestamp_start;17:1743165804.467042^8:trailers;0:~7:content;2295:ã       Âò}lÂ«Ôúæ\QÑFË™Èö¶‘mrπWﬂã[€Á8g«ÒKl«é«öﬁõﬂb˚˚b'¶∞vö™£[; ∆KG'T⁄™∆DHaÑ†T¢@—–@-kiAE-mŸ†¨–)Æí¬DZâ¢M®˜«sÁ≥ÓÁÁæøœ˜πÔŸ¯√åòS€söVT	 ñÃâÈlª¨Â‰&∞˘¿B„˙∆D‹bwÍˆxï◊aß‘jyŸ£f“Êé\†´3†ò{¬[™0ùEwG7I£aíOπ9‹°ÎôHî–z∫˙àæ Á¥ïŒ¢»ei1ﬁcŒJR¥30í´$˘û§’
-∂ˆ–°w¨´3›{œ$∞wéæ¯∆A¬“Ësj©Ñtã≤C”ê@Qª∂É5å?”Ù∫¡ÿÑÂ"Ω√~∑ÿ≠…ùï!G¡ŒW;≤I´uŒ„h„⁄]'g6|±f◊…ôM l0`q46»©¢ñS-(öW+∫(°sÄÊŸ>µáE	mgf	gF˚÷A" ƒÄ¿¡Õ'◊Ï˚Ú»[¿=‡p÷Î `q5^ü“ıB…Ç¢rJ‘ì}B¥Z>%ÍùÅ0ŸVÕˆnæˇbùSw<}œ◊ÍÄñ;¡FÀ7íQöQiú6ãì YÑ≈0a™aú√eìd—<hÜ]EQ÷”Z^Ã¬∫;U9ù≥0ØÂÀj±î÷Ú`[=[ÿπÛÅãÛÿ?∂˚æØœ#6÷DáÅqp.>`/'Ωˆå⁄]{:∫w§5Ä¶{Y´q‘p9 Ü¸#aBƒ\Xó(Ñ∫–•%ÿ| –=@ñdºÄ˘·∏ˆ9£Ÿü√q<¢e….©√≠'|≤¬‰iüªX	Z≠G{_µƒ°5 ˛uÓÃÿ˝”¶…?=çd„çPçÑÜÛìÿ¬ˇæk◊…ôsæ°(l0Å„‡\ø\‡î.Øjëòb∞∞ójçî∏D:Ê∂4\N%S,&;ºπVo–ıEìxñu*DI%íAﬁvîqº£:§jE¥7ÎÒU∞A^‘*RŒÏHá¸ﬁDîâå1πbµ¬€^˚Ùëù’¯‚Ó›œ]¬[Ø¶È¡Î.aèÛ?Äj˜>eèY5{åmìHV*ïvI’I⁄<Aeª8ÑŒGÌ<Í¿Yî'0£HñAùâv‡,NQÍ¢H‘á°sÆ∏BÛè/\#∞?üMÁU8T–äz	v®∫ûŒ'±Ÿ,h€m∂øqÍÔS`ˇÒO;_ºÔ¸ë÷Ç÷ÈøT´#MhU“E=-£	±úñµ|	ù€KÂ‰W˙=RcøQxˆ—uáß‘82˙Ï∫≠W≠áå¬˘˜÷ø7•∆œüÿ∑f«U´∆I£∞Íÿ›G¶‘¯˘èˆ<q’™±˛·Âﬂ~QçœˆæÙ‘”W≠ªÆv?vÏË≈∏ÛÊõø˙ÀU´∆ûkÑuˇ8Ò˛î€û¯‰¡=ﬂ©)∞p†ˆá„‡‹¢–7BEcCÒ>ÏçÚR®/’„ÉÇ´†Yç˜÷[H\¡Iö£I°pÑ¬(a±É∞4E∞4£0∏ ¬ÄÈƒÖTpag	M˜‘Gæ}⁄¨≈ä¿µoøUwÑ&Cd„ÙCÅˆùÆø¢|{ŸtÕFh ö 0& {ıt=˚–'è}π“
-µ\®Ωƒû;∫©ñΩWL§&
-@XõA`lÅ«@`¨≈`è*ö]¡`é´ÙU9óG
-zªF“}√›A´Ò•∆ÜNpFà¡í$B)∏ÑH2ç#I%$Zb0å‰`¿Ù‘˙Zg.Ï,}óÌÃ∑≈ª÷ü_‘MÙÁÓ:h“≈óËO:z∫˛;0Êel&∞ŸÕûÍ“ë”ı¿Ó=øeöÍR-â∆&'Ωb›∆≠;˜Ntiri.Ïkm∫R˛º‚˚›Çì§|¨çÅ¿‡µFÕ°I)ôeÍ#ù◊3?Áz#|W“É©aO’ÎË¨zø'R µÙ†€j|aÜ±Ef	U¢QÑÇPúä#ÆrÅ±¥ (fä≈)0ç] iÏ“h§;Î†…í ΩˇÈh$‡ø öúEà&±˙>CTQcŒÇ∑ãàcô◊Î0
-1TG„∂NﬂöÊ_†ªV†ó1@è`Ä^˚gÙÒY⁄∑¶z˜oç–+õÆáû˛
-ùX{3Ù˘ÛËÏYÙì3°ó◊‘A'>3@«ù=tj&t|S=ÙõßÍ°√ÁÍ°ç£7Bè˝tÚÏ<Ë‹ª-–ì˚[†WFAˇπ⁄p‹≠›p3¥wª⁄±üÜ˛vÙ¸;–ÍOM .æîÂ\9¡+î-ˆÄù√%ëp!≈doÆ$gÖr±fK)≤PªáÏ°¢ßC!˚ªc9¡…„I.J;Ωé"√#òËÛ	˝Ö†ÏCfgéÙv¥ cH»7ò˚ÉCƒÁ@®w@∑≥B–’E!ÚÄ?èTe¥Åƒ*C¬ï”à‰Hæ›ßn*„CB`~¥‚N/GªVZÅò8›.hÁ≠\2iÛX£bÛJÀJs∆ï£˝nìKÈ∑u%SµLÈhkµﬁ≤ÙˆxµRû∑4_º|ô@«o+`±˛¡Tz!∂<€›Av3√Œ¿çÂ¸frŸ¥—ê¬¥&ƒ≈Ûã»∞<oÒätdÂ†/—‚ãáÅx(–„Â·‹©∞t•v+Ìã‹¥lqg[“Ìî¸^ﬁ∑†“ö^ñ*ÿ⁄ªä=˙|s∞ìÂ2|xâW.◊‚¸-∂˘’Ë&∫ÙfŸ“÷∂ 8∞ƒ±,L0ÌÈ^ˇÚ%Õ˝+oÔ≤,®bNÀá±,¬–$áLú©f≈L·¢§ˆ8ç◊6Y¿ı¿3å3ö^^S75n8nôøz~Í€p¬≠Ò’†Ògç∑Òµ?ﬁ‡n;„$’éµ”«∂„4õ0â†RƒUW) ÃG`!™ôH$d'Eô¡p	)™â*≈ºúBR™®î–â"∂[Á8Aﬁ∂ñSb>ØfM%]î≤Í¢∂d5]0%Í"i°›]C#Œ"ÓÕó˚#¨Ÿ.•R}l,$Ñ‹b9≈ú<RÍÀ¿ˇ √\4Ω  ,7:headers;999:25:14:content-length,4:2295,]20:6:pragma,8:no-cache,]28:13:cache-control,8:no-cache,]358:13:authorization,336:Bearer ya29.a0AeXRPp6fRPmz06gd2s9OI14x-0sN-IM35AHiQ2fJLvCoKQeG53roRiGpv6G9ENiTSzyFKdd0K1gU5MNexs2BHzqsxRsJnBEwlsBNCkzd_hFhXAKkNvdoIYxftnIfCZp45KHk-hUXlupxJ2r0_sV5roHHu4grxPeWe88lF69rUeN81YmyvDT3aqmNwI8hUCJmJTBumbmBcG1bD2lJMu6sqeF3mhvoCi35LxQQMbPoqXNJC-0uz-WI_JVgkbRjQHrDfMxu8JMNci6H329zDbYaCgYKAd8SARISFQHGX2Miul1IXQ9gianUHwFwsB76cw0282,]27:16:content-encoding,4:gzip,]134:10:user-agent,115:Chrome MAC 134.0.6998.166 (0b26d3a1ee1e44572492002c2e52ffcd13ac701b-refs/branch-heads/6998@{#2123}) channel(stable),]44:12:content-type,24:application/octet-stream,]122:13:x-client-data,100:CKG1yQEIjLbJAQiktskBCKmdygEI9OXKAQiSocsBCIqjywEIhqDNAQi7yM0BCP3bzgEIr+TOAQjp5M4BCKzlzgEI4eXOAQjd5s4B,]25:14:sec-fetch-site,4:none,]28:14:sec-fetch-mode,7:no-cors,]26:14:sec-fetch-dest,5:empty,]46:15:accept-encoding,23:gzip, deflate, br, zstd,]37:15:accept-language,14:en-US,en;q=0.9,]20:8:priority,6:u=4, i,]]12:http_version;8:HTTP/2.0,}6:backup;0:~17:timestamp_created;17:1743165804.467272^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;9268:3:via;0:~19:timestamp_tcp_setup;18:1743165804.3975182^7:address;29:19:clients4.google.com;3:443#]19:timestamp_tls_setup;17:1743165804.433068^13:timestamp_end;0:~15:timestamp_start;17:1743165804.349916^3:sni;19:clients4.google.com;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;2:h2,16:certificate_list;8712:4958:-----BEGIN CERTIFICATE-----
-MIIOITCCDQmgAwIBAgIRAPHnrT8urLTUEJA2QfuQjK0wDQYJKoZIhvcNAQELBQAw
-OzELMAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEM
-MAoGA1UEAxMDV1IyMB4XDTI1MDMxMDA4MzU1OVoXDTI1MDYwMjA4MzU1OFowFzEV
-MBMGA1UEAwwMKi5nb29nbGUuY29tMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE
-IxEj7xSuGbCN8c1i5qzaw2ip0oMlzLsiTSORLZhj1SDSZuTx24MbTT0DDGZ+/IvY
-BmFwW40DtSB3ZfolFdgmiKOCDA0wggwJMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUE
-DDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQnAKpMuzlq5Kik
-+u69Hd48PKPrTjAfBgNVHSMEGDAWgBTeGx7teRXUPjckwyG77DQ5bUKyMDBYBggr
-BgEFBQcBAQRMMEowIQYIKwYBBQUHMAGGFWh0dHA6Ly9vLnBraS5nb29nL3dyMjAl
-BggrBgEFBQcwAoYZaHR0cDovL2kucGtpLmdvb2cvd3IyLmNydDCCCeQGA1UdEQSC
-CdswggnXggwqLmdvb2dsZS5jb22CFiouYXBwZW5naW5lLmdvb2dsZS5jb22CCSou
-YmRuLmRldoIVKi5vcmlnaW4tdGVzdC5iZG4uZGV2ghIqLmNsb3VkLmdvb2dsZS5j
-b22CGCouY3Jvd2Rzb3VyY2UuZ29vZ2xlLmNvbYIYKi5kYXRhY29tcHV0ZS5nb29n
-bGUuY29tggsqLmdvb2dsZS5jYYILKi5nb29nbGUuY2yCDiouZ29vZ2xlLmNvLmlu
-gg4qLmdvb2dsZS5jby5qcIIOKi5nb29nbGUuY28udWuCDyouZ29vZ2xlLmNvbS5h
-coIPKi5nb29nbGUuY29tLmF1gg8qLmdvb2dsZS5jb20uYnKCDyouZ29vZ2xlLmNv
-bS5jb4IPKi5nb29nbGUuY29tLm14gg8qLmdvb2dsZS5jb20udHKCDyouZ29vZ2xl
-LmNvbS52boILKi5nb29nbGUuZGWCCyouZ29vZ2xlLmVzggsqLmdvb2dsZS5mcoIL
-Ki5nb29nbGUuaHWCCyouZ29vZ2xlLml0ggsqLmdvb2dsZS5ubIILKi5nb29nbGUu
-cGyCCyouZ29vZ2xlLnB0gg8qLmdvb2dsZWFwaXMuY26CESouZ29vZ2xldmlkZW8u
-Y29tggwqLmdzdGF0aWMuY26CECouZ3N0YXRpYy1jbi5jb22CD2dvb2dsZWNuYXBw
-cy5jboIRKi5nb29nbGVjbmFwcHMuY26CEWdvb2dsZWFwcHMtY24uY29tghMqLmdv
-b2dsZWFwcHMtY24uY29tggxna2VjbmFwcHMuY26CDiouZ2tlY25hcHBzLmNughJn
-b29nbGVkb3dubG9hZHMuY26CFCouZ29vZ2xlZG93bmxvYWRzLmNughByZWNhcHRj
-aGEubmV0LmNughIqLnJlY2FwdGNoYS5uZXQuY26CEHJlY2FwdGNoYS1jbi5uZXSC
-EioucmVjYXB0Y2hhLWNuLm5ldIILd2lkZXZpbmUuY26CDSoud2lkZXZpbmUuY26C
-EWFtcHByb2plY3Qub3JnLmNughMqLmFtcHByb2plY3Qub3JnLmNughFhbXBwcm9q
-ZWN0Lm5ldC5jboITKi5hbXBwcm9qZWN0Lm5ldC5jboIXZ29vZ2xlLWFuYWx5dGlj
-cy1jbi5jb22CGSouZ29vZ2xlLWFuYWx5dGljcy1jbi5jb22CF2dvb2dsZWFkc2Vy
-dmljZXMtY24uY29tghkqLmdvb2dsZWFkc2VydmljZXMtY24uY29tghFnb29nbGV2
-YWRzLWNuLmNvbYITKi5nb29nbGV2YWRzLWNuLmNvbYIRZ29vZ2xlYXBpcy1jbi5j
-b22CEyouZ29vZ2xlYXBpcy1jbi5jb22CFWdvb2dsZW9wdGltaXplLWNuLmNvbYIX
-Ki5nb29nbGVvcHRpbWl6ZS1jbi5jb22CEmRvdWJsZWNsaWNrLWNuLm5ldIIUKi5k
-b3VibGVjbGljay1jbi5uZXSCGCouZmxzLmRvdWJsZWNsaWNrLWNuLm5ldIIWKi5n
-LmRvdWJsZWNsaWNrLWNuLm5ldIIOZG91YmxlY2xpY2suY26CECouZG91YmxlY2xp
-Y2suY26CFCouZmxzLmRvdWJsZWNsaWNrLmNughIqLmcuZG91YmxlY2xpY2suY26C
-EWRhcnRzZWFyY2gtY24ubmV0ghMqLmRhcnRzZWFyY2gtY24ubmV0gh1nb29nbGV0
-cmF2ZWxhZHNlcnZpY2VzLWNuLmNvbYIfKi5nb29nbGV0cmF2ZWxhZHNlcnZpY2Vz
-LWNuLmNvbYIYZ29vZ2xldGFnc2VydmljZXMtY24uY29tghoqLmdvb2dsZXRhZ3Nl
-cnZpY2VzLWNuLmNvbYIXZ29vZ2xldGFnbWFuYWdlci1jbi5jb22CGSouZ29vZ2xl
-dGFnbWFuYWdlci1jbi5jb22CGGdvb2dsZXN5bmRpY2F0aW9uLWNuLmNvbYIaKi5n
-b29nbGVzeW5kaWNhdGlvbi1jbi5jb22CJCouc2FmZWZyYW1lLmdvb2dsZXN5bmRp
-Y2F0aW9uLWNuLmNvbYIWYXBwLW1lYXN1cmVtZW50LWNuLmNvbYIYKi5hcHAtbWVh
-c3VyZW1lbnQtY24uY29tggtndnQxLWNuLmNvbYINKi5ndnQxLWNuLmNvbYILZ3Z0
-Mi1jbi5jb22CDSouZ3Z0Mi1jbi5jb22CCzJtZG4tY24ubmV0gg0qLjJtZG4tY24u
-bmV0ghRnb29nbGVmbGlnaHRzLWNuLm5ldIIWKi5nb29nbGVmbGlnaHRzLWNuLm5l
-dIIMYWRtb2ItY24uY29tgg4qLmFkbW9iLWNuLmNvbYIUZ29vZ2xlc2FuZGJveC1j
-bi5jb22CFiouZ29vZ2xlc2FuZGJveC1jbi5jb22CHiouc2FmZW51cC5nb29nbGVz
-YW5kYm94LWNuLmNvbYINKi5nc3RhdGljLmNvbYIUKi5tZXRyaWMuZ3N0YXRpYy5j
-b22CCiouZ3Z0MS5jb22CESouZ2NwY2RuLmd2dDEuY29tggoqLmd2dDIuY29tgg4q
-LmdjcC5ndnQyLmNvbYIQKi51cmwuZ29vZ2xlLmNvbYIWKi55b3V0dWJlLW5vY29v
-a2llLmNvbYILKi55dGltZy5jb22CC2FuZHJvaWQuY29tgg0qLmFuZHJvaWQuY29t
-ghMqLmZsYXNoLmFuZHJvaWQuY29tggRnLmNuggYqLmcuY26CBGcuY2+CBiouZy5j
-b4IGZ29vLmdsggp3d3cuZ29vLmdsghRnb29nbGUtYW5hbHl0aWNzLmNvbYIWKi5n
-b29nbGUtYW5hbHl0aWNzLmNvbYIKZ29vZ2xlLmNvbYISZ29vZ2xlY29tbWVyY2Uu
-Y29tghQqLmdvb2dsZWNvbW1lcmNlLmNvbYIIZ2dwaHQuY26CCiouZ2dwaHQuY26C
-CnVyY2hpbi5jb22CDCoudXJjaGluLmNvbYIIeW91dHUuYmWCC3lvdXR1YmUuY29t
-gg0qLnlvdXR1YmUuY29tghFtdXNpYy55b3V0dWJlLmNvbYITKi5tdXNpYy55b3V0
-dWJlLmNvbYIUeW91dHViZWVkdWNhdGlvbi5jb22CFioueW91dHViZWVkdWNhdGlv
-bi5jb22CD3lvdXR1YmVraWRzLmNvbYIRKi55b3V0dWJla2lkcy5jb22CBXl0LmJl
-ggcqLnl0LmJlghphbmRyb2lkLmNsaWVudHMuZ29vZ2xlLmNvbYITKi5hbmRyb2lk
-Lmdvb2dsZS5jboISKi5jaHJvbWUuZ29vZ2xlLmNughYqLmRldmVsb3BlcnMuZ29v
-Z2xlLmNughUqLmFpc3R1ZGlvLmdvb2dsZS5jb20wEwYDVR0gBAwwCjAIBgZngQwB
-AgEwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2MucGtpLmdvb2cvd3IyL29RNm55
-cjhGMG0wLmNybDCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB2AE51oydcmhDDOFts
-1N8/Uusd8OCOG41pwLH6ZLFimjnfAAABlX9pV0IAAAQDAEcwRQIhAMfm8wRp2n1B
-UN+TMmwSgsOpncinSH4aaGg9HMU1wkjOAiBFKOIRzHD9foroMf+s9KYCk1tkL3WT
-fPQuHItF7hjX8gB1AMz7D2qFcQll/pWbU87psnwi6YVcDZeNtql+VMD+TA2wAAAB
-lX9pWEsAAAQDAEYwRAIgMGvfwS1cR02cimHxjERN+a1L++wYOUN6K2yYgzqhbSsC
-IAYlUqcn6qJ8maaGSO+k+rw9VYcwzyH6z2MzF+F71/sjMA0GCSqGSIb3DQEBCwUA
-A4IBAQBdkxAss6u7cRjhunixpDAY7jme8RF5CfonewloJAsuLEzeqW9s4fnWgKtU
-l97x/YsOB02RQvymIOuMhgbFbnYhPHUzGroJ7UGFXDVWTCs3lsWRIjArOX99sQGP
-90MRAjxI97iYboncio/WYMQ/MeE//tInOdeRoMl21QKuR4kQrnzUcOpTMqkSx/dK
-5Mt5Y7Z3mUB5+pb8ApK0RzaOUdUggtrc72S4wc4DUAVvTMhpSBARTNDrYOPMmTQh
-u1Y3cjg1DQnmtfCt1ZeASxMJYerRUxCEl/UAK1kv8fImJgfgsMeda43RiKSzWZas
-OQiA9DayJN3xAnmJigI+LdsN8OeA
------END CERTIFICATE-----
-,1809:-----BEGIN CERTIFICATE-----
-MIIFCzCCAvOgAwIBAgIQf/AFoHxM3tEArZ1mpRB7mDANBgkqhkiG9w0BAQsFADBH
-MQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExM
-QzEUMBIGA1UEAxMLR1RTIFJvb3QgUjEwHhcNMjMxMjEzMDkwMDAwWhcNMjkwMjIw
-MTQwMDAwWjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNl
-cnZpY2VzMQwwCgYDVQQDEwNXUjIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
-AoIBAQCp/5x/RR5wqFOfytnlDd5GV1d9vI+aWqxG8YSau5HbyfsvAfuSCQAWXqAc
-+MGr+XgvSszYhaLYWTwO0xj7sfUkDSbutltkdnwUxy96zqhMt/TZCPzfhyM1IKji
-aeKMTj+xWfpgoh6zySBTGYLKNlNtYE3pAJH8do1cCA8Kwtzxc2vFE24KT3rC8gIc
-LrRjg9ox9i11MLL7q8Ju26nADrn5Z9TDJVd06wW06Y613ijNzHoU5HEDy01hLmFX
-xRmpC5iEGuh5KdmyjS//V2pm4M6rlagplmNwEmceOuHbsCFx13ye/aoXbv4r+zgX
-FNFmp6+atXDMyGOBOozAKql2N87jAgMBAAGjgf4wgfswDgYDVR0PAQH/BAQDAgGG
-MB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjASBgNVHRMBAf8ECDAGAQH/
-AgEAMB0GA1UdDgQWBBTeGx7teRXUPjckwyG77DQ5bUKyMDAfBgNVHSMEGDAWgBTk
-rysmcRorSCeFL1JmLO/wiRNxPjA0BggrBgEFBQcBAQQoMCYwJAYIKwYBBQUHMAKG
-GGh0dHA6Ly9pLnBraS5nb29nL3IxLmNydDArBgNVHR8EJDAiMCCgHqAchhpodHRw
-Oi8vYy5wa2kuZ29vZy9yL3IxLmNybDATBgNVHSAEDDAKMAgGBmeBDAECATANBgkq
-hkiG9w0BAQsFAAOCAgEARXWL5R87RBOWGqtY8TXJbz3S0DNKhjO6V1FP7sQ02hYS
-TL8Tnw3UVOlIecAwPJQl8hr0ujKUtjNyC4XuCRElNJThb0Lbgpt7fyqaqf9/qdLe
-SiDLs/sDA7j4BwXaWZIvGEaYzq9yviQmsR4ATb0IrZNBRAq7x9UBhb+TV+PfdBJT
-DhEl05vc3ssnbrPCuTNiOcLgNeFbpwkuGcuRKnZc8d/KI4RApW//mkHgte8y0YWu
-ryUJ8GLFbsLIbjL9uNrizkqRSvOFVU6xddZIMy9vhNkSXJ/UcZhjJY1pXAprffJB
-vei7j+Qi151lRehMCofa6WBmiA4fx+FOVsV2/7R6V2nyAiIJJkEd2nSi5SnzxJrl
-Xdaqev3htytmOPvoKWa676ATL/hzfvDaQBEcXd2Ppvy+275W+DKcH0FBbX62xevG
-iza3F4ydzxl6NJ8hk8R+dDXSqv1MbRT1ybB5W0k8878XSOjvmiYTDIfyc9acxVJr
-Y/cykHipa+te1pOhv7wYPYtZ9orGBV5SGOJm4NrB3K1aJar0RfzxC3ikr7Dyc6Qw
-qDTBU39CluVIQeuQRgwG3MuSxl7zRERDRilGoKb8uY45JzmxWuKxrfwT/478JuHU
-/oTxUFqOl2stKnn7QGTq8z29W+GgBLCXSBxC9epaHM0myFH/FJlniXJfHeytWt0=
------END CERTIFICATE-----
-,1927:-----BEGIN CERTIFICATE-----
-MIIFYjCCBEqgAwIBAgIQd70NbNs2+RrqIQ/E8FjTDTANBgkqhkiG9w0BAQsFADBX
-MQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UE
-CxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIwMDYx
-OTAwMDA0MloXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoT
-GUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFIx
-MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAthECix7joXebO9y/lD63
-ladAPKH9gvl9MgaCcfb2jH/76Nu8ai6Xl6OMS/kr9rH5zoQdsfnFl97vufKj6bwS
-iV6nqlKr+CMny6SxnGPb15l+8Ape62im9MZaRw1NEDPjTrETo8gYbEvs/AmQ351k
-KSUjB6G00j0uYODP0gmHu81I8E3CwnqIiru6z1kZ1q+PsAewnjHxgsHA3y6mbWwZ
-DrXYfiYaRQM9sHmklCitD38m5agI/pboPGiUU+6DOogrFZYJsuB6jC511pzrp1Zk
-j5ZPaK49l8KEj8C8QMALXL32h7M1bKwYUH+E4EzNktMg6TO8UpmvMrUpsyUqtEj5
-cuHKZPfmghCN6J3Cioj6OGaK/GP5Afl4/Xtcd/p2h/rs37EOeZVXtL0m79YB0esW
-CruOC7XFxYpVq9Os6pFLKcwZpDIlTirxZUTQAs6qzkm06p98g7BAe+dDq6dso499
-iYH6TKX/1Y7DzkvgtdizjkXPdsDtQCv9Uw+wp9U7DbGKogPeMa3Md+pvez7W35Ei
-Eua++tgy/BBjFFFy3l3WFpO9KWgz7zpm7AeKJt8T11dleCfeXkkUAKIAf5qoIbap
-sZWwpbkNFhHax2xIPEDgfg1azVY80ZcFuctL7TlLnMQ/0lUTbiSw1nH69MG6zO0b
-9f6BQdgAmD06yK56mDcYBZUCAwEAAaOCATgwggE0MA4GA1UdDwEB/wQEAwIBhjAP
-BgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBTkrysmcRorSCeFL1JmLO/wiRNxPjAf
-BgNVHSMEGDAWgBRge2YaRQ2XyolQL30EzTSo//z9SzBgBggrBgEFBQcBAQRUMFIw
-JQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnBraS5nb29nL2dzcjEwKQYIKwYBBQUH
-MAKGHWh0dHA6Ly9wa2kuZ29vZy9nc3IxL2dzcjEuY3J0MDIGA1UdHwQrMCkwJ6Al
-oCOGIWh0dHA6Ly9jcmwucGtpLmdvb2cvZ3NyMS9nc3IxLmNybDA7BgNVHSAENDAy
-MAgGBmeBDAECATAIBgZngQwBAgIwDQYLKwYBBAHWeQIFAwIwDQYLKwYBBAHWeQIF
-AwMwDQYJKoZIhvcNAQELBQADggEBADSkHrEoo9C0dhemMXoh6dFSPsjbdBZBiLg9
-NR3t5P+T4Vxfq7vqfM/b5A3Ri1fyJm9bvhdGaJQ3b2t6yMAYN/olUazsaL+yyEn9
-WprKASOshIArAoyZl+tJaox118fessmXn1hIVw41oeQa1v1vg4Fv74zPl6/AhSrw
-9U5pCZEt4Wi4wStz6dTZ/CLANx8LZh1J7QJVj2fhMtfTJr9w4z30Z209fOU0iOMy
-+qduBmpvvYuR7hZL6Dupszfnw0Skfths18dG9ZKb59UhvmaSGZRVbNQpsg3BZlvi
-d0lIKO2d1xozclOzgjXPYovJJIultzkMu34qQb9Sz/yilrbCgj8=
------END CERTIFICATE-----
-,]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:091b902b-e72e-4f28-9944-05feb4a68db3;8:sockname;24:12:10.31.170.21;5:54436#]8:peername;24:14:142.251.40.110;3:443#]}11:client_conn;485:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;17:1743165804.462052^13:timestamp_end;0:~15:timestamp_start;17:1743165804.346265^3:sni;19:clients4.google.com;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;2:h2,16:certificate_list;0:]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:6f5cd60d-0772-4ca9-afc4-710754c96d00;8:sockname;19:9:127.0.0.1;4:8080#]8:peername;20:9:127.0.0.1;5:54435#]}5:error;0:~2:id;36:7d6a7922-2239-4986-9050-567ce9a393c2;4:type;4:http;7:version;2:21#}11677:9:websocket;0:~8:response;726:6:reason;0:,11:status_code;3:301#13:timestamp_end;18:1743165807.8583019^15:timestamp_start;17:1743165807.856027^8:trailers;0:~7:content;45:ã      ˇs-* /≤uqruvquâwıs	˜Ù ¿ò°   ,7:headers;499:45:12:content-type,25:text/plain; charset=UTF-8,]27:16:content-encoding,4:gzip,]40:4:date,29:Fri, 28 Mar 2025 12:43:27 GMT,]43:7:expires,29:Fri, 28 Mar 2025 12:43:27 GMT,]39:13:cache-control,18:private, max-age=0,]36:22:x-content-type-options,7:nosniff,]33:15:x-frame-options,10:SAMEORIGIN,]53:23:content-security-policy,22:frame-ancestors 'self',]37:16:x-xss-protection,13:1; mode=block,]23:14:content-length,2:45,]15:6:server,3:GSE,]60:7:alt-svc,46:h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,]]12:http_version;8:HTTP/2.0,}7:request;876:4:path;15:/c2dm/register3,9:authority;26:android.clients.google.com,6:scheme;5:https,6:method;4:POST,4:port;3:443#4:host;26:android.clients.google.com;13:timestamp_end;17:1743165807.613975^15:timestamp_start;17:1743165807.610986^8:trailers;0:~7:content;73:app=com.google.android.gms&device=5637857750018924823&sender=745476177629,7:headers;504:23:14:content-length,2:73,]69:13:authorization,48:AidLogin 5637857750018924823:3369348931742827093,]53:12:content-type,33:application/x-www-form-urlencoded,]25:14:sec-fetch-site,4:none,]28:14:sec-fetch-mode,7:no-cors,]26:14:sec-fetch-dest,5:empty,]136:10:user-agent,117:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36,]46:15:accept-encoding,23:gzip, deflate, br, zstd,]37:15:accept-language,14:en-US,en;q=0.9,]20:8:priority,6:u=4, i,]]12:http_version;8:HTTP/2.0,}6:backup;0:~17:timestamp_created;17:1743165807.611296^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;9280:3:via;0:~19:timestamp_tcp_setup;17:1743165807.558933^7:address;36:26:android.clients.google.com;3:443#]19:timestamp_tls_setup;17:1743165807.584676^13:timestamp_end;0:~15:timestamp_start;17:1743165807.509384^3:sni;26:android.clients.google.com;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;2:h2,16:certificate_list;8712:4958:-----BEGIN CERTIFICATE-----
-MIIOITCCDQmgAwIBAgIRAPHnrT8urLTUEJA2QfuQjK0wDQYJKoZIhvcNAQELBQAw
-OzELMAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEM
-MAoGA1UEAxMDV1IyMB4XDTI1MDMxMDA4MzU1OVoXDTI1MDYwMjA4MzU1OFowFzEV
-MBMGA1UEAwwMKi5nb29nbGUuY29tMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE
-IxEj7xSuGbCN8c1i5qzaw2ip0oMlzLsiTSORLZhj1SDSZuTx24MbTT0DDGZ+/IvY
-BmFwW40DtSB3ZfolFdgmiKOCDA0wggwJMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUE
-DDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQnAKpMuzlq5Kik
-+u69Hd48PKPrTjAfBgNVHSMEGDAWgBTeGx7teRXUPjckwyG77DQ5bUKyMDBYBggr
-BgEFBQcBAQRMMEowIQYIKwYBBQUHMAGGFWh0dHA6Ly9vLnBraS5nb29nL3dyMjAl
-BggrBgEFBQcwAoYZaHR0cDovL2kucGtpLmdvb2cvd3IyLmNydDCCCeQGA1UdEQSC
-CdswggnXggwqLmdvb2dsZS5jb22CFiouYXBwZW5naW5lLmdvb2dsZS5jb22CCSou
-YmRuLmRldoIVKi5vcmlnaW4tdGVzdC5iZG4uZGV2ghIqLmNsb3VkLmdvb2dsZS5j
-b22CGCouY3Jvd2Rzb3VyY2UuZ29vZ2xlLmNvbYIYKi5kYXRhY29tcHV0ZS5nb29n
-bGUuY29tggsqLmdvb2dsZS5jYYILKi5nb29nbGUuY2yCDiouZ29vZ2xlLmNvLmlu
-gg4qLmdvb2dsZS5jby5qcIIOKi5nb29nbGUuY28udWuCDyouZ29vZ2xlLmNvbS5h
-coIPKi5nb29nbGUuY29tLmF1gg8qLmdvb2dsZS5jb20uYnKCDyouZ29vZ2xlLmNv
-bS5jb4IPKi5nb29nbGUuY29tLm14gg8qLmdvb2dsZS5jb20udHKCDyouZ29vZ2xl
-LmNvbS52boILKi5nb29nbGUuZGWCCyouZ29vZ2xlLmVzggsqLmdvb2dsZS5mcoIL
-Ki5nb29nbGUuaHWCCyouZ29vZ2xlLml0ggsqLmdvb2dsZS5ubIILKi5nb29nbGUu
-cGyCCyouZ29vZ2xlLnB0gg8qLmdvb2dsZWFwaXMuY26CESouZ29vZ2xldmlkZW8u
-Y29tggwqLmdzdGF0aWMuY26CECouZ3N0YXRpYy1jbi5jb22CD2dvb2dsZWNuYXBw
-cy5jboIRKi5nb29nbGVjbmFwcHMuY26CEWdvb2dsZWFwcHMtY24uY29tghMqLmdv
-b2dsZWFwcHMtY24uY29tggxna2VjbmFwcHMuY26CDiouZ2tlY25hcHBzLmNughJn
-b29nbGVkb3dubG9hZHMuY26CFCouZ29vZ2xlZG93bmxvYWRzLmNughByZWNhcHRj
-aGEubmV0LmNughIqLnJlY2FwdGNoYS5uZXQuY26CEHJlY2FwdGNoYS1jbi5uZXSC
-EioucmVjYXB0Y2hhLWNuLm5ldIILd2lkZXZpbmUuY26CDSoud2lkZXZpbmUuY26C
-EWFtcHByb2plY3Qub3JnLmNughMqLmFtcHByb2plY3Qub3JnLmNughFhbXBwcm9q
-ZWN0Lm5ldC5jboITKi5hbXBwcm9qZWN0Lm5ldC5jboIXZ29vZ2xlLWFuYWx5dGlj
-cy1jbi5jb22CGSouZ29vZ2xlLWFuYWx5dGljcy1jbi5jb22CF2dvb2dsZWFkc2Vy
-dmljZXMtY24uY29tghkqLmdvb2dsZWFkc2VydmljZXMtY24uY29tghFnb29nbGV2
-YWRzLWNuLmNvbYITKi5nb29nbGV2YWRzLWNuLmNvbYIRZ29vZ2xlYXBpcy1jbi5j
-b22CEyouZ29vZ2xlYXBpcy1jbi5jb22CFWdvb2dsZW9wdGltaXplLWNuLmNvbYIX
-Ki5nb29nbGVvcHRpbWl6ZS1jbi5jb22CEmRvdWJsZWNsaWNrLWNuLm5ldIIUKi5k
-b3VibGVjbGljay1jbi5uZXSCGCouZmxzLmRvdWJsZWNsaWNrLWNuLm5ldIIWKi5n
-LmRvdWJsZWNsaWNrLWNuLm5ldIIOZG91YmxlY2xpY2suY26CECouZG91YmxlY2xp
-Y2suY26CFCouZmxzLmRvdWJsZWNsaWNrLmNughIqLmcuZG91YmxlY2xpY2suY26C
-EWRhcnRzZWFyY2gtY24ubmV0ghMqLmRhcnRzZWFyY2gtY24ubmV0gh1nb29nbGV0
-cmF2ZWxhZHNlcnZpY2VzLWNuLmNvbYIfKi5nb29nbGV0cmF2ZWxhZHNlcnZpY2Vz
-LWNuLmNvbYIYZ29vZ2xldGFnc2VydmljZXMtY24uY29tghoqLmdvb2dsZXRhZ3Nl
-cnZpY2VzLWNuLmNvbYIXZ29vZ2xldGFnbWFuYWdlci1jbi5jb22CGSouZ29vZ2xl
-dGFnbWFuYWdlci1jbi5jb22CGGdvb2dsZXN5bmRpY2F0aW9uLWNuLmNvbYIaKi5n
-b29nbGVzeW5kaWNhdGlvbi1jbi5jb22CJCouc2FmZWZyYW1lLmdvb2dsZXN5bmRp
-Y2F0aW9uLWNuLmNvbYIWYXBwLW1lYXN1cmVtZW50LWNuLmNvbYIYKi5hcHAtbWVh
-c3VyZW1lbnQtY24uY29tggtndnQxLWNuLmNvbYINKi5ndnQxLWNuLmNvbYILZ3Z0
-Mi1jbi5jb22CDSouZ3Z0Mi1jbi5jb22CCzJtZG4tY24ubmV0gg0qLjJtZG4tY24u
-bmV0ghRnb29nbGVmbGlnaHRzLWNuLm5ldIIWKi5nb29nbGVmbGlnaHRzLWNuLm5l
-dIIMYWRtb2ItY24uY29tgg4qLmFkbW9iLWNuLmNvbYIUZ29vZ2xlc2FuZGJveC1j
-bi5jb22CFiouZ29vZ2xlc2FuZGJveC1jbi5jb22CHiouc2FmZW51cC5nb29nbGVz
-YW5kYm94LWNuLmNvbYINKi5nc3RhdGljLmNvbYIUKi5tZXRyaWMuZ3N0YXRpYy5j
-b22CCiouZ3Z0MS5jb22CESouZ2NwY2RuLmd2dDEuY29tggoqLmd2dDIuY29tgg4q
-LmdjcC5ndnQyLmNvbYIQKi51cmwuZ29vZ2xlLmNvbYIWKi55b3V0dWJlLW5vY29v
-a2llLmNvbYILKi55dGltZy5jb22CC2FuZHJvaWQuY29tgg0qLmFuZHJvaWQuY29t
-ghMqLmZsYXNoLmFuZHJvaWQuY29tggRnLmNuggYqLmcuY26CBGcuY2+CBiouZy5j
-b4IGZ29vLmdsggp3d3cuZ29vLmdsghRnb29nbGUtYW5hbHl0aWNzLmNvbYIWKi5n
-b29nbGUtYW5hbHl0aWNzLmNvbYIKZ29vZ2xlLmNvbYISZ29vZ2xlY29tbWVyY2Uu
-Y29tghQqLmdvb2dsZWNvbW1lcmNlLmNvbYIIZ2dwaHQuY26CCiouZ2dwaHQuY26C
-CnVyY2hpbi5jb22CDCoudXJjaGluLmNvbYIIeW91dHUuYmWCC3lvdXR1YmUuY29t
-gg0qLnlvdXR1YmUuY29tghFtdXNpYy55b3V0dWJlLmNvbYITKi5tdXNpYy55b3V0
-dWJlLmNvbYIUeW91dHViZWVkdWNhdGlvbi5jb22CFioueW91dHViZWVkdWNhdGlv
-bi5jb22CD3lvdXR1YmVraWRzLmNvbYIRKi55b3V0dWJla2lkcy5jb22CBXl0LmJl
-ggcqLnl0LmJlghphbmRyb2lkLmNsaWVudHMuZ29vZ2xlLmNvbYITKi5hbmRyb2lk
-Lmdvb2dsZS5jboISKi5jaHJvbWUuZ29vZ2xlLmNughYqLmRldmVsb3BlcnMuZ29v
-Z2xlLmNughUqLmFpc3R1ZGlvLmdvb2dsZS5jb20wEwYDVR0gBAwwCjAIBgZngQwB
-AgEwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2MucGtpLmdvb2cvd3IyL29RNm55
-cjhGMG0wLmNybDCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB2AE51oydcmhDDOFts
-1N8/Uusd8OCOG41pwLH6ZLFimjnfAAABlX9pV0IAAAQDAEcwRQIhAMfm8wRp2n1B
-UN+TMmwSgsOpncinSH4aaGg9HMU1wkjOAiBFKOIRzHD9foroMf+s9KYCk1tkL3WT
-fPQuHItF7hjX8gB1AMz7D2qFcQll/pWbU87psnwi6YVcDZeNtql+VMD+TA2wAAAB
-lX9pWEsAAAQDAEYwRAIgMGvfwS1cR02cimHxjERN+a1L++wYOUN6K2yYgzqhbSsC
-IAYlUqcn6qJ8maaGSO+k+rw9VYcwzyH6z2MzF+F71/sjMA0GCSqGSIb3DQEBCwUA
-A4IBAQBdkxAss6u7cRjhunixpDAY7jme8RF5CfonewloJAsuLEzeqW9s4fnWgKtU
-l97x/YsOB02RQvymIOuMhgbFbnYhPHUzGroJ7UGFXDVWTCs3lsWRIjArOX99sQGP
-90MRAjxI97iYboncio/WYMQ/MeE//tInOdeRoMl21QKuR4kQrnzUcOpTMqkSx/dK
-5Mt5Y7Z3mUB5+pb8ApK0RzaOUdUggtrc72S4wc4DUAVvTMhpSBARTNDrYOPMmTQh
-u1Y3cjg1DQnmtfCt1ZeASxMJYerRUxCEl/UAK1kv8fImJgfgsMeda43RiKSzWZas
-OQiA9DayJN3xAnmJigI+LdsN8OeA
------END CERTIFICATE-----
-,1809:-----BEGIN CERTIFICATE-----
-MIIFCzCCAvOgAwIBAgIQf/AFoHxM3tEArZ1mpRB7mDANBgkqhkiG9w0BAQsFADBH
-MQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExM
-QzEUMBIGA1UEAxMLR1RTIFJvb3QgUjEwHhcNMjMxMjEzMDkwMDAwWhcNMjkwMjIw
-MTQwMDAwWjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNl
-cnZpY2VzMQwwCgYDVQQDEwNXUjIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
-AoIBAQCp/5x/RR5wqFOfytnlDd5GV1d9vI+aWqxG8YSau5HbyfsvAfuSCQAWXqAc
-+MGr+XgvSszYhaLYWTwO0xj7sfUkDSbutltkdnwUxy96zqhMt/TZCPzfhyM1IKji
-aeKMTj+xWfpgoh6zySBTGYLKNlNtYE3pAJH8do1cCA8Kwtzxc2vFE24KT3rC8gIc
-LrRjg9ox9i11MLL7q8Ju26nADrn5Z9TDJVd06wW06Y613ijNzHoU5HEDy01hLmFX
-xRmpC5iEGuh5KdmyjS//V2pm4M6rlagplmNwEmceOuHbsCFx13ye/aoXbv4r+zgX
-FNFmp6+atXDMyGOBOozAKql2N87jAgMBAAGjgf4wgfswDgYDVR0PAQH/BAQDAgGG
-MB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjASBgNVHRMBAf8ECDAGAQH/
-AgEAMB0GA1UdDgQWBBTeGx7teRXUPjckwyG77DQ5bUKyMDAfBgNVHSMEGDAWgBTk
-rysmcRorSCeFL1JmLO/wiRNxPjA0BggrBgEFBQcBAQQoMCYwJAYIKwYBBQUHMAKG
-GGh0dHA6Ly9pLnBraS5nb29nL3IxLmNydDArBgNVHR8EJDAiMCCgHqAchhpodHRw
-Oi8vYy5wa2kuZ29vZy9yL3IxLmNybDATBgNVHSAEDDAKMAgGBmeBDAECATANBgkq
-hkiG9w0BAQsFAAOCAgEARXWL5R87RBOWGqtY8TXJbz3S0DNKhjO6V1FP7sQ02hYS
-TL8Tnw3UVOlIecAwPJQl8hr0ujKUtjNyC4XuCRElNJThb0Lbgpt7fyqaqf9/qdLe
-SiDLs/sDA7j4BwXaWZIvGEaYzq9yviQmsR4ATb0IrZNBRAq7x9UBhb+TV+PfdBJT
-DhEl05vc3ssnbrPCuTNiOcLgNeFbpwkuGcuRKnZc8d/KI4RApW//mkHgte8y0YWu
-ryUJ8GLFbsLIbjL9uNrizkqRSvOFVU6xddZIMy9vhNkSXJ/UcZhjJY1pXAprffJB
-vei7j+Qi151lRehMCofa6WBmiA4fx+FOVsV2/7R6V2nyAiIJJkEd2nSi5SnzxJrl
-Xdaqev3htytmOPvoKWa676ATL/hzfvDaQBEcXd2Ppvy+275W+DKcH0FBbX62xevG
-iza3F4ydzxl6NJ8hk8R+dDXSqv1MbRT1ybB5W0k8878XSOjvmiYTDIfyc9acxVJr
-Y/cykHipa+te1pOhv7wYPYtZ9orGBV5SGOJm4NrB3K1aJar0RfzxC3ikr7Dyc6Qw
-qDTBU39CluVIQeuQRgwG3MuSxl7zRERDRilGoKb8uY45JzmxWuKxrfwT/478JuHU
-/oTxUFqOl2stKnn7QGTq8z29W+GgBLCXSBxC9epaHM0myFH/FJlniXJfHeytWt0=
------END CERTIFICATE-----
-,1927:-----BEGIN CERTIFICATE-----
-MIIFYjCCBEqgAwIBAgIQd70NbNs2+RrqIQ/E8FjTDTANBgkqhkiG9w0BAQsFADBX
-MQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UE
-CxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIwMDYx
-OTAwMDA0MloXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoT
-GUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFIx
-MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAthECix7joXebO9y/lD63
-ladAPKH9gvl9MgaCcfb2jH/76Nu8ai6Xl6OMS/kr9rH5zoQdsfnFl97vufKj6bwS
-iV6nqlKr+CMny6SxnGPb15l+8Ape62im9MZaRw1NEDPjTrETo8gYbEvs/AmQ351k
-KSUjB6G00j0uYODP0gmHu81I8E3CwnqIiru6z1kZ1q+PsAewnjHxgsHA3y6mbWwZ
-DrXYfiYaRQM9sHmklCitD38m5agI/pboPGiUU+6DOogrFZYJsuB6jC511pzrp1Zk
-j5ZPaK49l8KEj8C8QMALXL32h7M1bKwYUH+E4EzNktMg6TO8UpmvMrUpsyUqtEj5
-cuHKZPfmghCN6J3Cioj6OGaK/GP5Afl4/Xtcd/p2h/rs37EOeZVXtL0m79YB0esW
-CruOC7XFxYpVq9Os6pFLKcwZpDIlTirxZUTQAs6qzkm06p98g7BAe+dDq6dso499
-iYH6TKX/1Y7DzkvgtdizjkXPdsDtQCv9Uw+wp9U7DbGKogPeMa3Md+pvez7W35Ei
-Eua++tgy/BBjFFFy3l3WFpO9KWgz7zpm7AeKJt8T11dleCfeXkkUAKIAf5qoIbap
-sZWwpbkNFhHax2xIPEDgfg1azVY80ZcFuctL7TlLnMQ/0lUTbiSw1nH69MG6zO0b
-9f6BQdgAmD06yK56mDcYBZUCAwEAAaOCATgwggE0MA4GA1UdDwEB/wQEAwIBhjAP
-BgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBTkrysmcRorSCeFL1JmLO/wiRNxPjAf
-BgNVHSMEGDAWgBRge2YaRQ2XyolQL30EzTSo//z9SzBgBggrBgEFBQcBAQRUMFIw
-JQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnBraS5nb29nL2dzcjEwKQYIKwYBBQUH
-MAKGHWh0dHA6Ly9wa2kuZ29vZy9nc3IxL2dzcjEuY3J0MDIGA1UdHwQrMCkwJ6Al
-oCOGIWh0dHA6Ly9jcmwucGtpLmdvb2cvZ3NyMS9nc3IxLmNybDA7BgNVHSAENDAy
-MAgGBmeBDAECATAIBgZngQwBAgIwDQYLKwYBBAHWeQIFAwIwDQYLKwYBBAHWeQIF
-AwMwDQYJKoZIhvcNAQELBQADggEBADSkHrEoo9C0dhemMXoh6dFSPsjbdBZBiLg9
-NR3t5P+T4Vxfq7vqfM/b5A3Ri1fyJm9bvhdGaJQ3b2t6yMAYN/olUazsaL+yyEn9
-WprKASOshIArAoyZl+tJaox118fessmXn1hIVw41oeQa1v1vg4Fv74zPl6/AhSrw
-9U5pCZEt4Wi4wStz6dTZ/CLANx8LZh1J7QJVj2fhMtfTJr9w4z30Z209fOU0iOMy
-+qduBmpvvYuR7hZL6Dupszfnw0Skfths18dG9ZKb59UhvmaSGZRVbNQpsg3BZlvi
-d0lIKO2d1xozclOzgjXPYovJJIultzkMu34qQb9Sz/yilrbCgj8=
------END CERTIFICATE-----
-,]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:66ee7fec-910e-4857-bfc3-da06c90dbd80;8:sockname;24:12:10.31.170.21;5:54438#]8:peername;23:13:142.250.64.78;3:443#]}11:client_conn;492:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;17:1743165807.607135^13:timestamp_end;0:~15:timestamp_start;17:1743165807.502676^3:sni;26:android.clients.google.com;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;2:h2,16:certificate_list;0:]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:7ca21467-2b83-453c-aca9-7644ea32b7fa;8:sockname;19:9:127.0.0.1;4:8080#]8:peername;20:9:127.0.0.1;5:54437#]}5:error;0:~2:id;36:91688dd9-1eda-4c57-ba73-e76f09407793;4:type;4:http;7:version;2:21#}14535:9:websocket;0:~8:response;5932:6:reason;0:,11:status_code;3:200#13:timestamp_end;17:1743165810.413169^15:timestamp_start;17:1743165810.410048^8:trailers;0:~7:content;5528:ã      ‘]€n„∏ñ˝zòáâNÒ¶<¬i_cóc«ª™∫˙·å≠NTñ•IN⁄Ö∆|—|≈|ŸÄ§|ë%Qä”DU@IØ-íK{ìõãó¸’Ωiçz¥Z£Ö£∂ªjZjlôjè`µ-àMK¨NÅ⁄∫Ωs@´ˇõc^’¬ˇb_u˙ã≈hz=ÌõCÎ®_˝W´ﬂs‡ï⁄ûs˚_°z~AáüØ`kÂˇ:w@kˆ’Ÿ–d˘¥°—⁄M‚e$nê–gÔ¥˛ÍeÎC÷∞nWÎΩØ◊ºi€QZãé”°Ò⁄M®Ô ˝ﬂˇôv⁄Wjª3©xœ®≠˛‘Å≠¡»Å&`∑nOòNÿöﬂ:∞ı◊‰∫5ˇÓ,7¨Tˆcõ’aBΩ†5Î~KÌC¢cu Åö6or≠µïÿÙ›s∫qïkˆü…÷O<Â?ï:%çˇeº©4ég%vflu⁄¸o¿JÔ∏â“	√8©W®˛∆BıC3g>›πëhcΩ≤ zcaÃ`ˇ¡¬»-+%ÎUEú°oÊGØlìm‰∆gÂÿ&0M¢ˆ†⁄áÄ h›T•m)ÖßÖ‹–’ çj2ˆV¬•L›◊∏^ˆÀ∞’cL≈¨®∂Ô∑f]Gmˇ>©—åN˚˜IZXè‡4 x
-ˆ-`TßÈK'm≠›Õæ÷‚†«ó¬8QÜ‘ˇCÚb±  ﬂk#k@N^€ˆ7
-h‚Ω∏ çî÷€‰t KWƒîî`¶∞1ã·›À"L®_UîQØ(#S‘,ÙÇ$Vn?}©sÂØœ~⁄”`KÀ∏	_ÂeBÍîA…∏èx}’´çzØ62Øn«±Wø€¨˜n3ÛÓ;˜!‹´ ó[ı^û©≈S‰∫±2°+∑Í˝vΩ˜€˚˜_ã<á}j—5¸…Üh‘Í±1834woX>îZLRìÃH>ˇÓ¸·≤˙vo˙JóæPﬂs£X˘EÈı Ããì0à[ùÆÉ “F¬ –˙:rÃV∑„¸Ûüj{ íän[ÌN’Óı˙ã:´£;u<S'∑Íd¶ﬁN’Ÿù:ˇÆ.æ©_ÊÍ◊æ˙u‘jqZ73ß’Ì;¢ﬁ¢™ìˆæa7ÿôv⁄úÕQœÈ¶øÂ)Õ±≥¨hkˆ›Y=¥˛öqå∞æ»∆ 1¸gEní(mﬂwÉ÷e[⁄ZÙ[£	˚µˆC`5 ∞˜/œ¡ck⁄u0lçªéj  π*}vŸ\© £m]©∏G⁄§•¯ÒÄ=`?€∂m–èÿ√4OªÔ–Â˙æ{”Ô“ó¯~¥yE‚ó«÷‚PÖÚ.ï‰ãA®Œ4∞öıá,A2A=y€Xπ¶ëOÉUC+÷¯Ñ"öHëiŸRä†M8Eaæ–@ôx…Ú…ı˝*í\€§öàﬁHO“e4`∞i@€Èsé¬ﬂ›U0‰rz8ÚîúrcÿÜ.ÂÜÿ¶ò˝©ÃìhW0≥°j1√ù∆Vy—m(Ô}ÇÇﬂ[+ó∆©◊ú<å¬òÈı⁄Ü!µÅ<aGD‘æ’{ ûuŸ¯Bvz˝EZ¡A‚Ì’uFt)A„óÔJoâ—´îûß≠ÓÑ–LrL©˜ÿ6˜ûπ∑	W0Ωdπ|ÚB)E1Gk–ß1f7ì)›4•Còeÿ:œGΩç2§—äæ“ùÚ9íÚîxÌ)≈j?¢ñ¨fíÑly*dŸê`ã¡£1„)Úb9E…XäºLWçö…Ü“Ä#¿∂xot 0ÙYÚßåFRä¢0†˛J{hÕÛNª•ÜˆK–ƒ∫)ÂIáñ÷¢Â6VÊ4é›®bXcH-Ê»äPC«5É yNl.ûˆ‹ beæ|ä¬ïÑ£Ùö¿k{¸!‡ÃÜ±‰éÑÔíF1ıËì2O‹W%ROÚ8TãÙ‘ï⁄mÎñÆWtJ‹ï⁄€òF ‚)‹<«°<K¢™%)ÙÑ£Üˇhùsî”Ln_‹(/õ,ôlrÔÓ9=™&√û—?Ù÷∞-û∑=ÅO∑Ê_P¯=éÇ≥µR[ÎhkVŸ≤ôˆ∞Á ,l˘≥^πb˙YR.¨≤e”≥aœ±Ö©-,·'XU_6}aeí¥LÚñ˙º≠0m+L€™2™JeiÔ∞ÁË¬PØ›NëÊ€	>¡JKñ±⁄¶ÖB˝-eY√∞Áò¬‘¨ŸN1ä≤2AZ&xÉ≤ÒÂvEó;Ï9Ü04ﬁ‘N¶˙Ê"ÙK∞zCàíwÑhq®¿OTá®yyàBTT.˘§W®UÏ∏∏:DÒ;B‘(r¢:c€6 ieKYà⁄˘ñVw
-ñù∂Û≤ ’ÛZ£ï,DÌwÑ(æê]0∆)|[êñ,õ@t≤l2l+√0
-‹Ñ-ö,nÔî;˙úÑ—Ÿ¢	˘Hã&§l—ƒ ¶i¨s‚˘n¨t"oıË
-≈ÚÿNñPY¨bäÂ∞≠mV{ÿÈ©ŸVì˝ÏÔÒÁ∑fT¿˛´ñ√vZ≈ÇåäïVôQ±f©3Ç-„4•Ç(KíÖÖ¯Ù9åüîÎ»Móï ˙∆O⁄#ÊL»èna,Â«‘ÌtºVæyæÔ—M•—h≠Ω¶ÿq∑q$ô¶•$åπÇπìƒsïçjßù»¢«&o£	˚•®ˆ¿°πu–fØJü#Iã€ª¥Ü˜ÛÑ&Ó∆íSº»J¶ê•Œå•¡f›2¯:|Pf°Î'æî•®=á~‚»ªç‰õà»}	i¥Ÿ–`Î˙ Ø[oπN◊SJâÚR¥ˆÔùªF≤•[zÆ{™úìít;Y⁄”¥ñ&f«Ôr'
-ì+\e…z–∫©Îπ-	LãÖ¶d~fÀÉ≠ 1+H^s•Xî‡ó∞T=ˇë}}ê¬Ï1ˇIP¡'˘Tigƒ(¸ EsÆ‹1
-'≥ÖS˛¸')úsïÚTöÔÍ«|˜¶≠t}Ô˘YlÍåß îçÊ7Ÿ’Àí]bZ¿‚CK'|\—@è≈[≤nÛ§°\A‰›Ê˛7Z'
-ip¥8KÍ d√û ÓΩª„‰=b*-VäÑl¸ÄvFGÖ˙Ò\dy±“€A)7ÌÆ∂éºX[mÉ ∑.¯—öm" k∂iÈÜH-6._Ù[πÚñˇ`@æ2öÕ‰?b„ëi“oN$ña¢»[Æïœa‡∆È¬p)+÷~0pveX◊?"$u€‡+c˙˙‰)7n–h%˜~Ü‘|Å<]c˘òN`öR'–1wÇimh†Ã¬◊ts[iÛé‘û9Ú¥˘‰c~˛ÏZdæ„bpeÓm6lπH÷˙7`õH.øR˚·z?(Ô êÿ¥7zÒñT˘}˚@ó“∂{ß˝d∏”©Á«,K€û*So˙4V∫>˝3+ááîf—sm÷¸Œx™ﬁR[
-ÿÈ∆`úô(âjıâ˝œ„D©3ûN≈âz$÷$uF,]‰q—•7
-Âs¯ƒr~ñ™˝–\œÿ8ä$œôLãª–ÿ≠«œ⁄-$áËçd«∞l"œ. W$zˇ—]?TÓ∂qúé-EM˚ãπ∂ßÿlz’8ˇ&í˚èÕ˝ÁwèzëõëIÀ\H@µ=ÙlO^√¯1!…Oï*ç^"
-§sπ‹ƒæH∑–≥vP,ûeÎäß»YK>{`2D∫ãP}[û|Áj[,&úïjA‡º‘:∂<€+"j’òeJ√ûìÍX¶eùY¢tw∆Y©E –ôÂ^;[∞+íkŒ,Ÿ¯U¢ÅU÷óuÏuó◊sﬂ¬¬•ÿB©Áº‹¢Âﬂ“R´4i∞X≈ÓWÌà‰√•˙Söñœ›∂Ü√º8T;B_Ë¥P∏˚Y†Tª,J]Áí‡4ç¬Ì'µ¬”ÄˆÂ°ínµπ,TÙ≤]fï≠¿[B•D◊dﬁæ◊5ØÁ 7∂ó;‰∫ÊÙVôπæ∑§ô√è6A?ê¥	J§MBåÄ8<‚m6;•≥M|±√ˆ§ô|vß≥‹‚z˛M„@M â{v/˚`–¿Œï:ËÙ{üoŒ,∏]afq=ﬂ◊Ó‚=ë∫:CVv˝¡,9$]Rú'ÓÛì(›mÌ§Ïƒ©-Út˙ö…4å¨"|Nﬁ|åËn´„6áRéV)4∑—·Ü∫ëë=ö„!~≤¶≥]≠v –s˝ïî†Ü”ûÓÑ≥ô‰`3ªÌ8G6”=2Mûh†å∑/x§RÜ~§`m-¿ÂF√ì	â<–∞Æã;Wbv[@Æ‰=—Ü·¥√Â7Ä4çB(%áÓDùà+èÈ”´üûªâ◊û<–\{>¿ÛjT”®≤l£Ç*°Ê˛∫ıÿ’Q å›J$#Èﬂ®=áqÊ®lhúôŸ„4˘83ˆ{ˆ\•Ìø–àÆ¯a—”TèÈ-¶8ä=Ωù±m{ÆFSÏÈzü–Ïˆ  ûÄê•õósî 'EMo˜uºo«q∏Ùh‚e©JÂöJÌ≈‰g÷±.Ÿ0˜[E€•´t¢5HWKÿb€âX{`‡|ø›\Æÿk)W¶m	«äÿ&Ç!}]{bIÍY¨=	p~≠πtA`…˘"HÏ{”»ï	M÷˚æ÷¨mRi(öMÁBÀ'+òoR¯˛¬Ú/éΩ
-Æv/,A`¿|∑ﬁ`ûtÄâ<+c◊˜w ≠øvÎ
-¶8T–ÉC·ÜÖlíÛßJ]KÖ{!°Æ<t¸&«yv¡Å°1ÏÃßßk(øÁñlR6Ï9Èû∑ÚcFÁvlæ¬JLœï@£~;yœl”âæ¡ñ•∏u7¯ÂlÖ‘XCÕ’8›Œx&‹äç9[\_Ù;∑5≈aÆ"—Ø™\>p\e…~˚Â%_g/ ÷Â©ZïóÜöÒéP≥
-C≠HŒõ^[=Œáõëˇ(µúõËgº#‡PÕ-Œ9K.∑¬C’´	˘`Éõœ÷Ñ≠Àæ*!ÿ~G∞ΩÖ•RUüU˝ÈwexÀ5”Ù'£•≥]Æ?≤¢À}ÀFHúÃªΩV⁄¡6∏Nth Àm¯a™È˜±>jT`r[tâM◊ÏÉÇÁõ'ˆ‹Æ8±˘.™ˆŒ¥Üõ≥‚9„Üq«ö∑¶˛È©≈bz6Vp`È¶[∫î"õ†√ô≈azìH1=¸¥‚Sˆ‹`fà.eÜ`É;œbÁªë2}w]ŒM¬@⁄öÅNg°¶«HJªJ\•¨¢ù2¢∑Ãy:mçu¨⁄Ùª&‡M»Aß&ˆ#={Í5aPALÿ–⁄AÚ;eæ%=—x:ÍéÁÉßh˛Ê≠‹C‘°”ŒŸ3∫†˘¬«µG˘=PÌ qìpnÉÕ3fè„5;µ»'Ìì—çˆ(=≈üˆT§p;‹˛yÒ—E2 ÷q?›tæt«Û˚ÆóÏuàº˘∞"TgC[ÍUXÙ€„ùÔ*„Ìœ-·ÜüÆ1äñC˝ì’(N4à‘uR…µÖ·Zπ	ü›üáy`(Õg®”.6äd˘qÀ#›F.;…y¡“ï∞í†ˆÃÅ6%~,3GL•‹KÊ‡iñÕÊ—È\ŸÑüdmY Ê/È∂$X~ÉÀπ•]Nöµ‰…KΩù|gñ|\Ø9õ=´-"JÁïHóÈY[ﬁÎ3€î#Tü#úrt6õ≠∂Ñ—©≤≠,ÆÍ\VËw9ÒGÊxB<wºƒbπ]-óµS€ZÍcŒıÏZ;ÆÛéá.t<$∂˝ÂÔ¨v;£»ÌjqÑI°åR«¶/t=≥Ê≈W‹˘ o[G9d6¸Môo°ÜLïÖ∑yp£◊–qˇ?Dpô(ÇÌ≤‹&AÈ∂û˚‚±‹·Zls‹7îèyòﬂ":¸M[1îˆ¿Qπ„ªÁI∂es†_ûdc}PòdœÜø± Ω3«FXùa˝Ï|£ïÂáBπ€—‡p∞ªòúhGÉÛS›†πÃ@ÑM"£‚ËÎòªNo— )fá˝§qXo1ÿa™°7ò#´ù”Ém±Gv ŒÜﬂyKvË=.ı^)›#~´πÈVïâÎ&ﬁ⁄U∫aêﬁ∑ìÎYŸ™≥aY"Ûû2ı—’ñûøljÀ‡ÚœøÒ◊d4=≠fÒµ;¢>’KœÜe±À±ñ¶#¬{ÎΩ8“_ΩÓΩ™ä4*L4Wò‰n*j6oÜaKªqü››mW;Â:|pÖ|[EZ¥]Ì¥G?UπÕÊ3Üë.%[0˝∑3Vn†Lñ=xÆ_À”~0m≥\	ì¨ ﬁh“tã ifZb'€÷gˇ‘Væ[á2f@Múçh∂õAS>HÑk„S˙SπsΩU≤˙Sã\oï◊¢M±txNUïìfˆ˘äib_0’+>„eely“[Ô™khµ˛  ˇˇ‘]›oõ0ˇWêÚlÕ6E}†4≠÷-(“Çˆå2ñ¶–PëFU´˝Òìœ&∆Ä6i<Òr◊#◊üç}ø;◊Ñ3°idC—ÖìaOöjUT3òtc65·É ﬂW&Í©onæ)ô˙!ª∞Ω˜˝)øñâﬁS≥~C≈._o⁄
-¶”å«Ùê‡ Ùçàú€≥„m˘Éœ7ÎõW°ÁíÀ°G¥Â;√Vm_Ú¬_ºÄç û∂4ÖêOk°◊Uú¬>¢1…:¥Ó”˜w∂[ÒqªmRÈò¸OÅávb<åŸ<9≠$*>⁄éÎ_	˜E†≤H÷a=™d#‰zRÈœøXõ¨C˛~c/åü≈x¬9 ö^Ú1“íy∑ªb˜\æ f&ΩõÚ∑"C?OÇÁßx:a?QÃ˙˝ƒƒd“ÔiëÛöåÏp(˙–Ù
-r(r=ÌSÚíÁ)M:™ì\)`≠Ì≠oYÕ`•˜,µ=:d
-É’Ñq‰ÿMñØñá<A—=Tª√ÀéS|VÈQŒ˙ÿp!ê`1!(FõZö˜5≥e+Ä˙¸D;7ãXædª5¨ƒ±ÃGrΩÎÕıZòr≤Øª≤˙Qy)Â¢h¢Á’t™>≤IìØ©&ÇmÕÀ"µÓÀ\t-ı¯h¢Ëëã∂€ßË#ä˝^Ÿ'B’¥∞ñ<Z˛6‡£G.äû@¥§ö¢è%Ω>rò#¢∆õá4+¨UYΩd’i"gß£ûÑ<z˘&˜*ô™≥¯Å^u÷`ı’_⁄ÍS®qµ<kË¬ŸL√≠K.+öLé=S˙'t©pE”ï©eï°{ÿ¶Ák	‚ıIÈ¶.Ïˆ∆Ii≈.ﬂMØ}™ÆÏ⁄Py€çt˘™1Óça&µΩ0b#`‰v˝cÏa uN=#√Pr∫»ﬁÌzí∆Iyg]Ìâ
-%èéÄ%6JﬁüA	ÓÚ_ó·µhÌ‡¯Õ<˙rUÔkÛ(ÇÎÛ‚|Î[%≠≠œû-g∑é=ãÒl˛y≠›#[ÇQÑñw(\¨íkÉø˙Î7   ˇˇ =û
-ç  ,7:headers;221:40:4:date,29:Fri, 28 Mar 2025 12:43:30 GMT,]45:12:content-type,25:text/plain; charset=utf-8,]29:15:cf-cache-status,7:DYNAMIC,]23:6:server,10:cloudflare,]33:6:cf-ray,20:927736a80d314cef-BOS,]27:16:content-encoding,4:gzip,]]12:http_version;8:HTTP/2.0,}7:request;3684:4:path;123:/matchmarketscontentapi/markets?lid=30&zid=0&pd=%23AC%23B18%23C20604387%23D43%23E181378%23F43%23N0%23&cid=13&cgid=2&ctid=13,9:authority;17:www.bet365.com.au,6:scheme;5:https,6:method;3:GET,4:port;3:443#4:host;17:www.bet365.com.au;13:timestamp_end;17:1743165809.723982^15:timestamp_start;17:1743165809.721768^8:trailers;0:~7:content;0:,7:headers;3295:56:12:x-request-id,36:acbeae07-518a-d5fa-2ad3-7de07e76fc1f,]32:18:sec-ch-ua-platform,7:"macOS",]136:10:user-agent,117:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36,]81:9:sec-ch-ua,65:"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134",]1537:15:x-net-sync-term,1512:ArwABAC6AAGbpYR/qKh2o6KDMNSLuqsJSvFbGRPHk89A1FVjhs/XdEduIAsmIEJtymYIMJlrK+XDt+K2qjoqHI79cTB5lWekR3xY1J0UD6llS4weIZIfziX5sIkMSLLlGz+/+LG6JXMz0U1O45uf4cqA9nBCjE3FMOYJOfOANU4oig4Ms8JnwFwAjAPAkf6bhQPNupACk9ORT9fvjfJO5f2KXb2DsEFZSULewGGocl5q8C+TJo+x4tQN8NQAntvbc2NwXUnoHJZWR8GXIJs0LFO+tBOpgoJcyy+zvDRNKSl9JCFj8x5n9It/YxrqsJXZyQYBTMipzgbimUPzoyZ/T+qeIr30693qg1wjIQcbCnGbyYW4xdSnZ3afiuEDQmnc5k/Cfk4EdYSgJN7l54EWycyHniXMa5sXdCqBwJDPfaPo60oPqShj9S+4JeOz1K/0vPoT6DJ31dOV8pTWL+brW/x7JX2bTpX3NB5MVSoIEpfubV9yoCCtnkARpEw8K0p6ieQIxBEJt3jRLecm78WXaj8OSF8xjJ15LjEpQIGmSZ2xag35DCnwh5pIiKr3yR5DbXXZzpjryC7PPEtAf7nfMk+SBr4kDu1w2khRxJyJBRgxPnJ8dFDOnjBin1TRKfYfWgSUvCWpGdKlpvvAja1xB7OfoU4NajHi+YVJx4nECZ3b+DSbqeknY9xLSEVWXCUY/W7gd6DVNiyyRkqZEEr/Nl0SBGOt68u51nml1Ig507HWmQhpHm49D0cRwF/UAJPJsA1XmihXzA8O3/UDVRfw71Q8zgA2+NW0CO2hz/f/Ty23sfBGg+EhyMKNULBuDscqHCPXMlFtnDr4W5A2wJ2Q2KCLggVOjWIVES6w5cTh0iyim2E/iLk7RqmGW/JMxFNBIs6UiVnbgjtVtLQCrjWSEXTdb3m4hyJ+gbv7aj4X5bvHbRJpeM/q6D61avamEZHOnUt4zOTuBPtIQD+JEHZR/DINyV+/P352VOwtD2geOLfhSjrxmO8CkhPqwf5WRekIuA4T65MH/N3lCL1xTYk1JveUcFJnl67MAG1U3upq9UgU4AUbRQQfs0MhrUfzh9P9jsmRCBncbW/LVaWafkl2v0ko8P2HVU+bp9rjq8YRK+tGZqzI0isjhIfjzqcvmFQppFDWTLasTUDX1ixLE7kP/grfORyAxWsKIVSq4IWpbyRD4FWjlinmuIadkwSyZ2TlwrtNGdNU/TPvO8dS37HY8TwKXh6BnwuyIDlK61ZFDfdO09CPsMi4/PhRZnfdrtFLpmbHw39QN914YCYOxCRcEzmrYvA1pc+lhYyOUniOHLMxwRlfAT8XrkcAkpdGv9iJ5a7/CbPkay9Hr5TJW7Hplf8NVlb8roV+sPHsiKoV/WmeCC7B12OuwCg42doFpQOwANvJFOuxtg/DsD6WkX/s7sLt9MGFFyr2v+KCTdywxIYJ5GQPbetkdhZOMAGJ9waQ4SEff4QPZuFkQwKo32YVHRWzMcdtumxFONZ1wL0=,]25:16:sec-ch-ua-mobile,2:?0,]15:6:accept,3:*/*,]33:14:sec-fetch-site,11:same-origin,]25:14:sec-fetch-mode,4:cors,]26:14:sec-fetch-dest,5:empty,]40:7:referer,26:https://www.bet365.com.au/,]46:15:accept-encoding,23:gzip, deflate, br, zstd,]37:15:accept-language,14:en-US,en;q=0.9,]18:6:cookie,6:rmbs=3,]59:6:cookie,46:aps03=cf=N&cg=2&cst=0&ct=13&hd=N&lng=30&tzi=30,]16:6:cookie,4:cc=1,]24:6:cookie,11:cc2=p=1&m=1,]517:6:cookie,503:cf_clearance=A9HCF9Fu5gzVe7LLvZFs2gKu8NkVEsEBTXcgQkwRdjg-1743150548-1.2.1.1-FXkjqlxpUbNWxJ_nM4Abfo4cuS.nEhEw3Xno.HBF.sw6EqcQGbMuCB4LooDo9EgdXxWabA0VXbiXvLzK_WKMyUvAiCU7CFoMOI75PKmFAYlZPkmnoU841nwD89yEm78Wt3WSRvJNlZUZ61S1P5ELIS05XJaOqw58NPs54P8HxNxH4JkE9aq4cXuGjfPIrPCOnM4SVRinYYuiVFxc7YDiTNTqFnJ4RN.WQXr0pX_5.H_pctWj8PKkj6cuWX8f0HWHJWT5cCsqFqxiRjl.lBOKDbXfAIBseHsOdrOLW9cP7gPom5N.qG.BFwwgzfX0TzmspZAlT49cfHqNlqE5JB1aciahWmchc8CiLKkTzoWo4GQl_3suWvlN36R5qjq3zd9jozBqiF8hO2MkSSt2.sQ.jPT.LYnx3PhVaLEkhSDk_Hg,]56:6:cookie,43:pstk=AA8B2F5F9D6BC738A84F1274FB93BCC3000003,]210:6:cookie,196:swt=ARCHj7i/+m57sTxV3TOMWR5Ci83qinvdbmezeRcQKDpkNs4EVFC9KLZQl57OSS9m0EZ8MQalxAeRtiveP1GHK0BBFu9wf55beZ32UFEZgTflwpb6Nkx9L1Y2pl1bU/8W0pPvKwayNY+H37Tkxv2kKaEqeTnqVBhbloIUv4TtjHERCDcTwdDJdOph8mVwg/Yw,]192:6:cookie,178:__cf_bm=R5iIiD1rSHWT3dGPB9gK7HkitphnLh9Vb4hn58bRJRU-1743165802-1.0.1.1-eD23meXj30.H7ntkYN_roxf7H5mkZ7CDmpCKr1xQLxPrG0lR_N1BKb0JA_XDzD3PrUqSYHKGO.JhIfkCVxv7ERoZ011iwkEYkfpwsOdCh5w,]20:8:priority,6:u=1, i,]]12:http_version;8:HTTP/2.0,}6:backup;0:~17:timestamp_created;17:1743165809.721935^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;4131:3:via;0:~19:timestamp_tcp_setup;17:1743165809.693148^7:address;27:17:www.bet365.com.au;3:443#]19:timestamp_tls_setup;17:1743165809.714734^13:timestamp_end;0:~15:timestamp_start;18:1743165809.6770618^3:sni;17:www.bet365.com.au;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;2:h2,16:certificate_list;3581:1330:-----BEGIN CERTIFICATE-----
-MIIDqjCCA1GgAwIBAgIRAKC6nr+gspu7Ee6dKp6ghlEwCgYIKoZIzj0EAwIwOzEL
-MAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEMMAoG
-A1UEAxMDV0UxMB4XDTI1MDIwMzAzNTk1OFoXDTI1MDUwNDA0NTk1M1owGDEWMBQG
-A1UEAxMNYmV0MzY1LmNvbS5hdTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABFVn
-ViRJ/OdOTwhRkPWVMCRobVBkoaUuHSIm5hnIU2+YnnhBYWXMC23WFpGqL2jpJqLU
-5ooDWN6HBrmlpSzDit2jggJXMIICUzAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0lBAww
-CgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU83/wwt4hVYOulor/
-GKf5vD2Hc7QwHwYDVR0jBBgwFoAUkHeSNWfE/6jMqeZ72YB5e8yT+TgwXgYIKwYB
-BQUHAQEEUjBQMCcGCCsGAQUFBzABhhtodHRwOi8vby5wa2kuZ29vZy9zL3dlMS9v
-TG8wJQYIKwYBBQUHMAKGGWh0dHA6Ly9pLnBraS5nb29nL3dlMS5jcnQwKQYDVR0R
-BCIwIIINYmV0MzY1LmNvbS5hdYIPKi5iZXQzNjUuY29tLmF1MBMGA1UdIAQMMAow
-CAYGZ4EMAQIBMDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6Ly9jLnBraS5nb29nL3dl
-MS9pNHVfbWlacXcxRS5jcmwwggEEBgorBgEEAdZ5AgQCBIH1BIHyAPAAdgBOdaMn
-XJoQwzhbbNTfP1LrHfDgjhuNacCx+mSxYpo53wAAAZTKLfuRAAAEAwBHMEUCIQCP
-Vr9ZGre3duEaujHq7/qLu5PMEWpBeFJnr5eI82Sx7AIgbPHPihermKj5DDBtyjlF
-FYsGgAzQXaD1VXgkWHTGbiMAdgATSt8atZhCCXgMb+9MepGkFrcjSc5YV2rfrtqn
-wqvgIgAAAZTKLf1oAAAEAwBHMEUCIQDuBEqYVfrThh/UqcmBRG/ctiI6PogHr7Ot
-ts6OdSFBPQIgEqgnB9P8siZM2FHa5DKtd6XWKtfdvtrhUOzGlU8HiNcwCgYIKoZI
-zj0EAwIDRwAwRAIgDcn2MSjLOHY5h9G1g0+zTBVvlhXOulefVav39p4pEQkCIAxw
-hCcJCLqZA5tKAhZB0X8P1OzPj3s9pki12HOVzjtj
------END CERTIFICATE-----
-,969:-----BEGIN CERTIFICATE-----
-MIICnzCCAiWgAwIBAgIQf/MZd5csIkp2FV0TttaF4zAKBggqhkjOPQQDAzBHMQsw
-CQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExMQzEU
-MBIGA1UEAxMLR1RTIFJvb3QgUjQwHhcNMjMxMjEzMDkwMDAwWhcNMjkwMjIwMTQw
-MDAwWjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZp
-Y2VzMQwwCgYDVQQDEwNXRTEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARvzTr+
-Z1dHTCEDhUDCR127WEcPQMFcF4XGGTfn1XzthkubgdnXGhOlCgP4mMTG6J7/EFmP
-LCaY9eYmJbsPAvpWo4H+MIH7MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggr
-BgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQU
-kHeSNWfE/6jMqeZ72YB5e8yT+TgwHwYDVR0jBBgwFoAUgEzW63T/STaj1dj8tT7F
-avCUHYwwNAYIKwYBBQUHAQEEKDAmMCQGCCsGAQUFBzAChhhodHRwOi8vaS5wa2ku
-Z29vZy9yNC5jcnQwKwYDVR0fBCQwIjAgoB6gHIYaaHR0cDovL2MucGtpLmdvb2cv
-ci9yNC5jcmwwEwYDVR0gBAwwCjAIBgZngQwBAgEwCgYIKoZIzj0EAwMDaAAwZQIx
-AOcCq1HW90OVznX+0RGU1cxAQXomvtgM8zItPZCuFQ8jSBJSjz5keROv9aYsAm5V
-sQIwJonMaAFi54mrfhfoFNZEfuNMSQ6/bIBiNLiyoX46FohQvKeIoJ99cx7sUkFN
-7uJW
------END CERTIFICATE-----
-,1265:-----BEGIN CERTIFICATE-----
-MIIDejCCAmKgAwIBAgIQf+UwvzMTQ77dghYQST2KGzANBgkqhkiG9w0BAQsFADBX
-MQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UE
-CxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIzMTEx
-NTAzNDMyMVoXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoT
-GUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFI0
-MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAE83Rzp2iLYK5DuDXFgTB7S0md+8Fhzube
-Rr1r1WEYNa5A3XP3iZEwWus87oV8okB2O6nGuEfYKueSkWpz6bFyOZ8pn6KY019e
-WIZlD6GEZQbR3IvJx3PIjGov5cSr0R2Ko4H/MIH8MA4GA1UdDwEB/wQEAwIBhjAd
-BgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDwYDVR0TAQH/BAUwAwEB/zAd
-BgNVHQ4EFgQUgEzW63T/STaj1dj8tT7FavCUHYwwHwYDVR0jBBgwFoAUYHtmGkUN
-l8qJUC99BM00qP/8/UswNgYIKwYBBQUHAQEEKjAoMCYGCCsGAQUFBzAChhpodHRw
-Oi8vaS5wa2kuZ29vZy9nc3IxLmNydDAtBgNVHR8EJjAkMCKgIKAehhxodHRwOi8v
-Yy5wa2kuZ29vZy9yL2dzcjEuY3JsMBMGA1UdIAQMMAowCAYGZ4EMAQIBMA0GCSqG
-SIb3DQEBCwUAA4IBAQAYQrsPBtYDh5bjP2OBDwmkoWhIDDkic574y04tfzHpn+cJ
-odI2D4SseesQ6bDrarZ7C30ddLibZatoKiws3UL9xnELz4ct92vID24FfVbiI1hY
-+SW6FoVHkNeWIP0GCbaM4C6uVdF5dTUsMVs/ZbzNnIdCp5Gxmx5ejvEau8otR/Cs
-kGN+hr/W5GvT1tMBjgWKZ1i4//emhA1JG1BbPzoLJQvyEotc03lXjTaCzv8mEbep
-8RqZ7a2CPsgRbuvTPBwcOMBBmuFeU88+FSBX6+7iP0il8b4Z0QFqIwwMHfs/L6K1
-vepuoxtGzi4CZ68zJpiq1UvSqTbFJjtbD4seiMHl
------END CERTIFICATE-----
-,]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:4bf87cce-8d6a-4f3e-8503-47313234586d;8:sockname;24:12:10.31.170.21;5:54440#]8:peername;22:12:5.226.179.18;3:443#]}11:client_conn;483:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;17:1743165809.718741^13:timestamp_end;0:~15:timestamp_start;17:1743165809.672574^3:sni;17:www.bet365.com.au;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;2:h2,16:certificate_list;0:]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:26f8a69f-b5a4-4f30-bff0-44ea400e5a41;8:sockname;19:9:127.0.0.1;4:8080#]8:peername;20:9:127.0.0.1;5:54439#]}5:error;0:~2:id;36:26d3f614-4787-4b2a-986d-371f2bdb9bdf;4:type;4:http;7:version;2:21#}12227:9:websocket;0:~8:response;3607:6:reason;0:,11:status_code;3:200#13:timestamp_end;17:1743165810.616012^15:timestamp_start;17:1743165810.612519^8:trailers;0:~7:content;3047:ã      µúÀn€JÜ_ÖÄgïÄwë0≤e;q,ÎëìŒf–∂2ä(…éÉ<⁄ÏÊ≈¶XÕ¢muµ3ÄK@x„è_ö›ıç9˚=ôü_}8óGEêMB?ı„(ùƒ——iê—(;:Éüœ˝£„˘∑õu•6w7MΩ’ıV≠Àˇ>˝v|~Ú!8ûç?ÃäÒÒt?œOÄ9˘ÚˇÚ‰Ú›È∑w„ê¶ˆB!
-M∆„‚•M‡˚Yò˚¬6Njou6ﬂYù8»¢~1É_åìËË,Ä¶~£ÀÏU‚Ne“Tï^jØPõz{≠™ õ¥ÕCm…ÖyJÀqÃ^.¡∑v~eyƒÈ(êˆ‡òΩG⁄yúÓ⁄¶“jπ”˚:Q<
-ÎIorP{•)yì›⁄ÓDy¬åÖ7w#ñ⁄eù–¯∂-’∂ºÒ¶|C•iÌ∑Ò[õâcˆN˘ßÔ´ﬁ˜f•Ì~'I◊‘≤˝âaˆ^Åèb’µ™KÂùî˜Â¶ljo/)Åë@êH{qLÚ¬‹&Ø≈n≠[æ«√`IbÒcò$Ü˘=Æñﬁ•öÕvÂîcí¶˘∏^6ïÚ&jµ÷M≠∂ç7S7`ß*€`‚~ì¸0‚«ÌjtY+o
- •b¥‡)‚Z6ì¥0‹üiÅì≥Õ SÈ¬√2Iﬂj3ÔLﬂÍñy•Aúâ∑«$=LˇÒn≥≥bxãf∑Ω≥Ã¢,®ìÃL`Ã…¨Ó—“~ì¸LIxÈ7Å∑ÃΩ’(√z'Ïf3{∑–T÷ÕŸzI~ CãIÜ¶>tÜ‡Ú9≈ÁfìúLiËùä]}´7„%¸$Î≈2…ÀB°ÓZU÷ﬁº’´ä?/ÇòÙÂK√$7,	Ö™pZTSÁ¥û ≠≈0IKB°´eπ[uı›x±(Œ¬TXåeíñÉbˆØ+◊ƒÍúÙíeí j©´f˝⁄$8‚ã6éInXäÛO}[π˙V~Ä.œ0…
-Éø≥ö∑˜∫ﬁlÔÁ`s˘ˆbòΩYÑ±_¥ÍWYy”‚ÃıôtógôdÖQOV›‹ÁoXlr	qÄÖìÕ$+˚ﬁjVÏÌû¯y Å,€J&˘òê7>sµ´ ÕfâÛ¬˚
-’‹j¨,ê_41Lí3)ﬂñ€rsÁ-¶÷^Só0“”ñIB&ﬂ{!òﬁòåg:’óì¥L∫Ô™•Í¶‡e˘W⁄àcí∆˚D’Í¶4€' rÒa«1…#}rWV⁄õŒò~îÖ›ì$uX&È`ñÉ¨Ãæ÷Â˚æŒ¸]sY.?AÊòΩYåYŒôπ™`ñ l&˘a™w~z£Ω+UÆuÈÕùÖ0?¿F
-√$9˜=π3„~íˆbò‰Ö!øÁıµ3/S~-À1…Û|T›˘8ªX,>q‡òdÖ!ø◊Zﬂ·5:ÁÅëº√$=˚I”’È/ÂçÚ¶'ÖŸP,õ÷íKÄ%-«1IŒ‰~€®-¢q¿.∞£<Õ••X&Iô\∑ªÕ”2√Í˝∞ˆ•_$À$-S~Èõ;h+ú°Z3â(ÃƒßÚ,≥wJL¸øprt˚0¨q˝÷û≈1…ÃofMq¸‹œc_∂©L¬∞?—ıJµ?<sÿm€0ã˝<§7îX&ôa‹üVﬁBU˜Í∂iÕãºTè£#√ˇ ´ õIÜ¸ßõm””t)¡ƒD˘*…0I
-sˇÏÍPÙ3Ú∆P„é&£ëxz±L“¬º∑¥‹ãÏÏß:D	Ê˝YYW™æ}∂ÖcO- †≈˜$8&âaÊ€b÷‘?#øªÁ )∆2ISüƒ.ö∂‹T]ÔwL?í∂côΩ]ä˘o€1-≈7…9&âa¸üµ™æ—ﬁf›!õf
-&\ÒéI^XzØy€ÏO+¸d‰ë˝∞∑99©dÖ‡ôï}K'Nê¯ìå0Ò?Í¶]B~ôÛo◊Nt&ﬁÂY&ôaÏ‘ÌJ’èŒ„?`\wΩ@Ù=∫®‰ÜŸOn'ØùsdÚ1¡0…cüºònoçtcô§ÑÅˇ±’∫ºôç9wR˘;)ìÃ0Ògz{ß€.V7ﬁi´o±"π6U¢\~∑écˆÜ#L˝Oªz©⁄Go‹ïÀ˜Æé‡–Éaí∆>ôÕ
-/xœÙ4?ï_∑1Lr¬»?ø—{Sª≠¬\ºDrLÚ¬–?ﬂ¥J√‘ˇ’Ñçƒïìƒ0˚œ∑™ÇŒÚ´ªë—=N‘âcí¶æqöjvÈè .ﬁJ6ìå0ÎçMpºÖn!$Ï+ø∏ÿ¡2…Û˛¢Ÿ4˜Õ´=>ó?‚„ò§Öô~ﬂ@6LµŸzì;µZøü±f“∆2…3ˇ≥Z´⁄+˙a»v±ëxç‰òΩUÜ9øgÓ[ÖiòJÁÀ$+Ã¯=´»~ÉI&_y&Ya ´Ôüa‚E`¯∫Ë'Ú'£ìÏ0Î?7Ìm◊hOóﬁ3H¬Ï
-ÿL≤√¿ø–ı£˙„Ω°T|π∆2…c÷µZyˆ¡L7¡Ï:ƒÀ'ΩyHÚTR¬‹Ô≥’‹X~e; ?¿ `ò‰Üπ?U€{nœµ˚›p$øÓ`ò‰ÉÅo|ﬁ—ˆ!£ÂÚ'Fì¥0Ìß˙Z’PœÏ{
-q+Pi!éŸÂÙ”r{∑√ã”ª´«a%ñIJòÚœî./ˆƒ˚¬Ÿ’c˘Æ≈0…Û~∫˚©W◊ÕÆ]æ∂…‡∫ À$7L˚ß∂õŸØ≥;˛ïo.ÜIJÒ≥¶›ﬁyóÍFﬂ‚Pú∑˜fŸ§¢@≤Ç,ì1È/ıœÚ¶1Á„‚‘ä$ëì§0Î˜§\˝?Nƒ7Ã9&©a‘˜jìs¯ÕøÁÃ.>åqÒˆbò$ÖyOÌuYÃŸªÖ~ö˚I*€πLÚÍ∑tº¥¬m ˛Œï¸Ì{éŸK¡Æ≥öﬂïUπ^w∑ºÀ9WS·sRs–¬‰Æ5/∆∞^[≠ M∑é‘Ì_ˆ†-‡õ6Ü9àb	ò7¯BÕ’gm
-Â«&√Ã∞ ÙféØ‡iÚ2sp¬
-–;”GSE£ë¸TåaZò˚Ω÷|z±/‘≠è•W,s¬ÃüC•‹-U’MyúW*‚ë¸•Hé9®aÊøPslœu˘Ö√‘0˘5˙¨Œ!9∏®∞’ 0=, {-Á>ïá©|^0L“3üÁr≠«©…oŸ1ÃAÕTÉùn∑Mw≠_ÛñMÎ¸vf8kfòÉ#Ç/Õ ¨Tò˚¬â/|Kﬂ¡å∞ |yÄPÉÈ?Ì;˜TPùÊ áïÄósàL˛Ú«±*,t≠˚·Í‹¡éCÒÖ:«ƒ∞:ÿbÆvK≈Ì,s–√
-±–Ì5Ñ‡üÈ¬˘>pM≈}fòØt{Ø*Ωk($±¸P`òÉ÷ÖﬁÎb∫∞Ç#ÃÒUëbô$d>…]TÕΩ˙Jß?Ò”\˚vCû¬7ÃAÎ@'¶Ò†Î¿ŸèÂø/‡òÉfˇ‡µ‡vŒrÒÀ,sP¬_¨ªœpÕ¶¡Ñ˚J|±…2)}#5oÀïnïwv ~Y#]ªYÊ‡eíΩzπÎjÔH'ÀºL–õóx÷TVïÆóéÜQ ΩJaôÉû	˙ß>ÊXÑQ4íÆ@,s3Iˇ$∆jEP©ƒOR9Ê†eÇ˛Aﬂj:ÄÎb’ÉæzÄ~Êûåôèqm1W·éÒ…íz,s–3±oÙpÊØ∑[ªŸBDÒ˛œ1/˚Âˆóπ•”~˚¶Që(l≈2+ì¸œ¨√	π„}&@í~üs04e‡ô·å9˛ä∞	ƒ1+,Wªf”Æ	Ë•©tgôÉVÄóRÆ∑8Ô˝,sP√Ùø˙Ô⁄Â£Ê>ÿÖNzÄI√î0˜•”ÇˇåR|n»1'˝¡È™'(≥‚NìúÃªONÆ;¬aä¬23å˙Áf◊ıÂn± ›hsP√¥Ô?<Ω‚I‚,ëﬂPdòÉ&˝W(‘›
-+?âŸÃAÉ˝I»ïTô¯<ïeZòÏﬂt≠ÌtEˇ≈wã<Òö√13å˜”ÎßÀXÖ⁄n+ÌΩÛ‚ü…™¨7ˆàÃ≈èlXÊ†à1ˇ\ÒS¯…˚¯ëäë√‘ey(ú¥ÊÔˇ:5√W  ,7:headers;377:40:4:date,29:Fri, 28 Mar 2025 12:43:30 GMT,]45:12:content-type,25:text/plain; charset=utf-8,]58:13:cache-control,37:s-maxage=10, stale-while-revalidate=2,]10:3:age,1:0,]17:3:via,8:I3CON1P1,]25:13:accept-ranges,5:bytes,]27:16:content-encoding,4:gzip,]26:4:vary,15:accept-encoding,]29:15:cf-cache-status,7:DYNAMIC,]23:6:server,10:cloudflare,]33:6:cf-ray,20:927736abaca64cef-BOS,]]12:http_version;8:HTTP/2.0,}7:request;3701:4:path;128:/splashcontentapi/changecompetition?lid=30&zid=0&pd=%23ABM%23B18%23C20604387%23D43%23E181378%23F43%23I0%23&cid=13&cgid=2&ctid=13,9:authority;17:www.bet365.com.au,6:scheme;5:https,6:method;3:GET,4:port;3:443#4:host;17:www.bet365.com.au;13:timestamp_end;17:1743165810.459054^15:timestamp_start;17:1743165810.455925^8:trailers;0:~7:content;0:,7:headers;3307:56:12:x-request-id,36:acbeae07-518a-d5fa-2ad3-7de07e76fc1f,]32:18:sec-ch-ua-platform,7:"macOS",]136:10:user-agent,117:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36,]81:9:sec-ch-ua,65:"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134",]1549:15:x-net-sync-term,1524:ArwABAC6AAGbpYR/qKh2o6KDMNSLuqsJSvFbGRPHk89A1FVjhs/XdEduIAsmIEJtymYIMJlrK+XDt+K2qjoqHI79cTB5lWekR3xY1J0UD6llS4weIZIfziX5sIkMSLLlGz+/+LG6JXMz0U1O45uf4cqA9nBCjE3FMOYJOfOANU4oig4Ms8JnwFwAjAPAkf6bhQPNupACk9ORT9fvjfJO5f2KXb2DsEFZSULewGGocl5q8C+TJo+x4tQN8NQAntvbRrk7MyWLC9pVCqGHO/+DxK3rKfTWzRa9dAMLLp8DFUoEyyGWXvm6/x1VmOZttIpmvrIp8ZXnlgN/3NYtH7N6w2ud2+YMoPPuWe6Zm4xmwQZFmpVZdp9C9aPFLp6n+fzXzo3zLZYA4ROfEQDcHVtPiQammxXyvH9lTFwdJI+Cc8HofKrlfBJQoWQqFsnTdha/yB8b+vxixpfD3awaoOwt1ZaWUf8eC46x6fZfD+6Q4SjMtCfUL3SYf8/zj6RnZO8iPhnmqgIagQ3/qo2CMc3pW1+FgAL6XXzQJfpQcpxGdreGFkRnEqkT66df2/fuAekKU4J+tFtr/6kULtJDBiLwcgWXf5UhQJQLOzdumMsR3uAI4UNYldsqVin5w0/6j0sJWBee4Zff+zDHwDSl+QjdMHRI4FkWkJuK49fgQWS7y5rszomGN5FM70889Tf41oF5wru86/rRhsOFYfJFYjP3KMPYqeU2cwFt/EeIVhUkmwcFfay8e+/MF8mx2KJ4uWFUi9IkVC29mgWp/WHYBNUrAHH9ap/rnc6d+qVLXC5ERFhNMV23Q4I6wUryrjFapwZlGc7f1UABh16JQzIeBGpuPAVRTaJwJHtYM6te+5SxgcGTgLZVXak3va9V41MiFIXm9GoWMha127zqCV+MS7L6ntuFDt6ztVvuizs7zZLJIpNUwGiowb0fOY8PeJUlBnANwSr6HI7KywQyB7OlRnxapSSZdsoRaNUnQ5TY4QwrRkIOUVNKiMhVGvx8QMei5nF8ETNeistpayoyWSEr11Tm0PzBT7JtlbXFcCaQfakaEi3crS+3QtmGIEzzMkpgcoshA9c68Wf4KgzBAWX9W7u0t7bs1hdXyO5Gs6AGAhtWEFOY7NGr+LwoLHx+Hy1VYasy2soBflFSkpmBUZv0X3J2tCb3ZAb3Lm78B55Hle55KE9ij+XHw0y9nbDcB+/4JfYNTmnbQsUfcLIKbOb8BwvXz1T+gnzLY+YzqiEn7pKQ9yrThH8MEuZBw12KMaBady7s45AOLK5GWXgWQbjlS8+KCCpJ1lClBitiNatinU0ByoJXCZVLMQzqQrCIee8NpQQALco6JgNd2KVqNWjZ0+D46OZyi3D8Ya1WMeZAADANhr77rrm463QojTE/3qn8EWA6wsNApOqcOC/JC21kMjlLzDA7KOjO/bqkgOTkcKoyBakJ4gzweSBYbUT8s/s1bB2IZPoXkuns1fllDuLKFmL434Lp0ONMPQzdQ4WJoUueneU6UdwNBtY=,]25:16:sec-ch-ua-mobile,2:?0,]15:6:accept,3:*/*,]33:14:sec-fetch-site,11:same-origin,]25:14:sec-fetch-mode,4:cors,]26:14:sec-fetch-dest,5:empty,]40:7:referer,26:https://www.bet365.com.au/,]46:15:accept-encoding,23:gzip, deflate, br, zstd,]37:15:accept-language,14:en-US,en;q=0.9,]18:6:cookie,6:rmbs=3,]59:6:cookie,46:aps03=cf=N&cg=2&cst=0&ct=13&hd=N&lng=30&tzi=30,]16:6:cookie,4:cc=1,]24:6:cookie,11:cc2=p=1&m=1,]517:6:cookie,503:cf_clearance=A9HCF9Fu5gzVe7LLvZFs2gKu8NkVEsEBTXcgQkwRdjg-1743150548-1.2.1.1-FXkjqlxpUbNWxJ_nM4Abfo4cuS.nEhEw3Xno.HBF.sw6EqcQGbMuCB4LooDo9EgdXxWabA0VXbiXvLzK_WKMyUvAiCU7CFoMOI75PKmFAYlZPkmnoU841nwD89yEm78Wt3WSRvJNlZUZ61S1P5ELIS05XJaOqw58NPs54P8HxNxH4JkE9aq4cXuGjfPIrPCOnM4SVRinYYuiVFxc7YDiTNTqFnJ4RN.WQXr0pX_5.H_pctWj8PKkj6cuWX8f0HWHJWT5cCsqFqxiRjl.lBOKDbXfAIBseHsOdrOLW9cP7gPom5N.qG.BFwwgzfX0TzmspZAlT49cfHqNlqE5JB1aciahWmchc8CiLKkTzoWo4GQl_3suWvlN36R5qjq3zd9jozBqiF8hO2MkSSt2.sQ.jPT.LYnx3PhVaLEkhSDk_Hg,]56:6:cookie,43:pstk=AA8B2F5F9D6BC738A84F1274FB93BCC3000003,]210:6:cookie,196:swt=ARCHj7i/+m57sTxV3TOMWR5Ci83qinvdbmezeRcQKDpkNs4EVFC9KLZQl57OSS9m0EZ8MQalxAeRtiveP1GHK0BBFu9wf55beZ32UFEZgTflwpb6Nkx9L1Y2pl1bU/8W0pPvKwayNY+H37Tkxv2kKaEqeTnqVBhbloIUv4TtjHERCDcTwdDJdOph8mVwg/Yw,]192:6:cookie,178:__cf_bm=R5iIiD1rSHWT3dGPB9gK7HkitphnLh9Vb4hn58bRJRU-1743165802-1.0.1.1-eD23meXj30.H7ntkYN_roxf7H5mkZ7CDmpCKr1xQLxPrG0lR_N1BKb0JA_XDzD3PrUqSYHKGO.JhIfkCVxv7ERoZ011iwkEYkfpwsOdCh5w,]20:8:priority,6:u=1, i,]]12:http_version;8:HTTP/2.0,}6:backup;0:~17:timestamp_created;17:1743165810.456208^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;4131:3:via;0:~19:timestamp_tcp_setup;17:1743165809.693148^7:address;27:17:www.bet365.com.au;3:443#]19:timestamp_tls_setup;17:1743165809.714734^13:timestamp_end;0:~15:timestamp_start;18:1743165809.6770618^3:sni;17:www.bet365.com.au;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;2:h2,16:certificate_list;3581:1330:-----BEGIN CERTIFICATE-----
-MIIDqjCCA1GgAwIBAgIRAKC6nr+gspu7Ee6dKp6ghlEwCgYIKoZIzj0EAwIwOzEL
-MAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEMMAoG
-A1UEAxMDV0UxMB4XDTI1MDIwMzAzNTk1OFoXDTI1MDUwNDA0NTk1M1owGDEWMBQG
-A1UEAxMNYmV0MzY1LmNvbS5hdTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABFVn
-ViRJ/OdOTwhRkPWVMCRobVBkoaUuHSIm5hnIU2+YnnhBYWXMC23WFpGqL2jpJqLU
-5ooDWN6HBrmlpSzDit2jggJXMIICUzAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0lBAww
-CgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU83/wwt4hVYOulor/
-GKf5vD2Hc7QwHwYDVR0jBBgwFoAUkHeSNWfE/6jMqeZ72YB5e8yT+TgwXgYIKwYB
-BQUHAQEEUjBQMCcGCCsGAQUFBzABhhtodHRwOi8vby5wa2kuZ29vZy9zL3dlMS9v
-TG8wJQYIKwYBBQUHMAKGGWh0dHA6Ly9pLnBraS5nb29nL3dlMS5jcnQwKQYDVR0R
-BCIwIIINYmV0MzY1LmNvbS5hdYIPKi5iZXQzNjUuY29tLmF1MBMGA1UdIAQMMAow
-CAYGZ4EMAQIBMDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6Ly9jLnBraS5nb29nL3dl
-MS9pNHVfbWlacXcxRS5jcmwwggEEBgorBgEEAdZ5AgQCBIH1BIHyAPAAdgBOdaMn
-XJoQwzhbbNTfP1LrHfDgjhuNacCx+mSxYpo53wAAAZTKLfuRAAAEAwBHMEUCIQCP
-Vr9ZGre3duEaujHq7/qLu5PMEWpBeFJnr5eI82Sx7AIgbPHPihermKj5DDBtyjlF
-FYsGgAzQXaD1VXgkWHTGbiMAdgATSt8atZhCCXgMb+9MepGkFrcjSc5YV2rfrtqn
-wqvgIgAAAZTKLf1oAAAEAwBHMEUCIQDuBEqYVfrThh/UqcmBRG/ctiI6PogHr7Ot
-ts6OdSFBPQIgEqgnB9P8siZM2FHa5DKtd6XWKtfdvtrhUOzGlU8HiNcwCgYIKoZI
-zj0EAwIDRwAwRAIgDcn2MSjLOHY5h9G1g0+zTBVvlhXOulefVav39p4pEQkCIAxw
-hCcJCLqZA5tKAhZB0X8P1OzPj3s9pki12HOVzjtj
------END CERTIFICATE-----
-,969:-----BEGIN CERTIFICATE-----
-MIICnzCCAiWgAwIBAgIQf/MZd5csIkp2FV0TttaF4zAKBggqhkjOPQQDAzBHMQsw
-CQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExMQzEU
-MBIGA1UEAxMLR1RTIFJvb3QgUjQwHhcNMjMxMjEzMDkwMDAwWhcNMjkwMjIwMTQw
-MDAwWjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZp
-Y2VzMQwwCgYDVQQDEwNXRTEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARvzTr+
-Z1dHTCEDhUDCR127WEcPQMFcF4XGGTfn1XzthkubgdnXGhOlCgP4mMTG6J7/EFmP
-LCaY9eYmJbsPAvpWo4H+MIH7MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggr
-BgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQU
-kHeSNWfE/6jMqeZ72YB5e8yT+TgwHwYDVR0jBBgwFoAUgEzW63T/STaj1dj8tT7F
-avCUHYwwNAYIKwYBBQUHAQEEKDAmMCQGCCsGAQUFBzAChhhodHRwOi8vaS5wa2ku
-Z29vZy9yNC5jcnQwKwYDVR0fBCQwIjAgoB6gHIYaaHR0cDovL2MucGtpLmdvb2cv
-ci9yNC5jcmwwEwYDVR0gBAwwCjAIBgZngQwBAgEwCgYIKoZIzj0EAwMDaAAwZQIx
-AOcCq1HW90OVznX+0RGU1cxAQXomvtgM8zItPZCuFQ8jSBJSjz5keROv9aYsAm5V
-sQIwJonMaAFi54mrfhfoFNZEfuNMSQ6/bIBiNLiyoX46FohQvKeIoJ99cx7sUkFN
-7uJW
------END CERTIFICATE-----
-,1265:-----BEGIN CERTIFICATE-----
-MIIDejCCAmKgAwIBAgIQf+UwvzMTQ77dghYQST2KGzANBgkqhkiG9w0BAQsFADBX
-MQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UE
-CxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIzMTEx
-NTAzNDMyMVoXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoT
-GUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFI0
-MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAE83Rzp2iLYK5DuDXFgTB7S0md+8Fhzube
-Rr1r1WEYNa5A3XP3iZEwWus87oV8okB2O6nGuEfYKueSkWpz6bFyOZ8pn6KY019e
-WIZlD6GEZQbR3IvJx3PIjGov5cSr0R2Ko4H/MIH8MA4GA1UdDwEB/wQEAwIBhjAd
-BgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDwYDVR0TAQH/BAUwAwEB/zAd
-BgNVHQ4EFgQUgEzW63T/STaj1dj8tT7FavCUHYwwHwYDVR0jBBgwFoAUYHtmGkUN
-l8qJUC99BM00qP/8/UswNgYIKwYBBQUHAQEEKjAoMCYGCCsGAQUFBzAChhpodHRw
-Oi8vaS5wa2kuZ29vZy9nc3IxLmNydDAtBgNVHR8EJjAkMCKgIKAehhxodHRwOi8v
-Yy5wa2kuZ29vZy9yL2dzcjEuY3JsMBMGA1UdIAQMMAowCAYGZ4EMAQIBMA0GCSqG
-SIb3DQEBCwUAA4IBAQAYQrsPBtYDh5bjP2OBDwmkoWhIDDkic574y04tfzHpn+cJ
-odI2D4SseesQ6bDrarZ7C30ddLibZatoKiws3UL9xnELz4ct92vID24FfVbiI1hY
-+SW6FoVHkNeWIP0GCbaM4C6uVdF5dTUsMVs/ZbzNnIdCp5Gxmx5ejvEau8otR/Cs
-kGN+hr/W5GvT1tMBjgWKZ1i4//emhA1JG1BbPzoLJQvyEotc03lXjTaCzv8mEbep
-8RqZ7a2CPsgRbuvTPBwcOMBBmuFeU88+FSBX6+7iP0il8b4Z0QFqIwwMHfs/L6K1
-vepuoxtGzi4CZ68zJpiq1UvSqTbFJjtbD4seiMHl
------END CERTIFICATE-----
-,]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:4bf87cce-8d6a-4f3e-8503-47313234586d;8:sockname;24:12:10.31.170.21;5:54440#]8:peername;22:12:5.226.179.18;3:443#]}11:client_conn;483:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;17:1743165809.718741^13:timestamp_end;0:~15:timestamp_start;17:1743165809.672574^3:sni;17:www.bet365.com.au;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;2:h2,16:certificate_list;0:]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:26f8a69f-b5a4-4f30-bff0-44ea400e5a41;8:sockname;19:9:127.0.0.1;4:8080#]8:peername;20:9:127.0.0.1;5:54439#]}5:error;0:~2:id;36:990ee902-d1cc-454f-b4d8-6379b593ae8c;4:type;4:http;7:version;2:21#}

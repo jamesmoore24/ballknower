@@ -8,3 +8,4 @@ cron/ballknower.db
 .env.development.local
 .env.test.local
 .env.production.local
+scrape-data
